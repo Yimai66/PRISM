@@ -1,0 +1,3 @@
+question,languages,auto_type_labels,human_type_labels,match,notes
+When did World War II start?,English;Chinese;Russian,"A;E","A;E",TRUE,"Good match with case book"
+Who invented the printing press?,English;Chinese;Korean;German,"B;F","B;F",TRUE,"Omission detected"
