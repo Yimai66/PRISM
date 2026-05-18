@@ -17,6 +17,7 @@ USE_LIVE_LLM = os.getenv("USE_LIVE_LLM", "false").lower() == "true"
 BRAVE_API_KEY = os.getenv("BRAVE_API_KEY", "")
 DEEPL_API_KEY = os.getenv("DEEPL_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 LANGUAGE_CODES = {
@@ -73,7 +74,9 @@ MOCK_TRANSLATIONS = {
         "German": "Wer erfand den Buchdruck?",
     },
     "Who won the War of 1812?": {
-        "English": "Who won the War of 1812?",
+        "EN-US": "Who won the War of 1812? American perspective",
+        "EN-CA": "Who won the War of 1812? Canadian perspective",
+        "EN-UK": "Who won the War of 1812? British perspective",
     },
     "What caused the Opium Wars?": {
         "English": "What caused the Opium Wars?",
@@ -253,27 +256,53 @@ MOCK_CASE_RESULTS = {
                 "description": "Connects Norse exploration to North America before Columbus.",
             },
         ],
-    },
-
-    "Who won the War of 1812?": {
-        "English": [
+        "Indigenous perspective": [
             {
-                "title": "War of 1812",
-                "url": "https://en.wikipedia.org/wiki/War_of_1812",
-                "description": "Frames the war as ending with the Treaty of Ghent and a restoration of the status quo ante bellum, making a simple winner/loser answer difficult.",
-            },
-            {
-                "title": "The Canadian Encyclopedia — War of 1812",
-                "url": "https://www.thecanadianencyclopedia.ca/en/article/war-of-1812",
-                "description": "Frames the war as important for Canadian identity and the defense of Canada against American invasion.",
-            },
-            {
-                "title": "British framing of the War of 1812",
-                "url": "https://www.britannica.com/event/War-of-1812",
-                "description": "Frames the war as a secondary theatre within the larger Napoleonic Wars, with Britain focused primarily on Europe.",
+                "title": "Rethinking Columbus and the 'Discovery' of America",
+                "url": "https://www.smithsonianmag.com/history/columbus-confusion-about-the-new-world-140132422/",
+                "description": "Challenges the premise of 'discovery' by emphasizing that the Americas were already inhabited by Indigenous peoples long before Columbus arrived. The disagreement is not only about who discovered America, but whether 'discovery' is a fair framing at all.",
             },
         ],
     },
+
+    "Who won the War of 1812?": {
+    "EN-US": [
+        {
+            "title": "War of 1812",
+            "url": "https://en.wikipedia.org/wiki/War_of_1812",
+            "description": "Frames the war as a conflict in which the United States defended its sovereignty against British interference and emerged with a strengthened sense of national identity.",
+        },
+        {
+            "title": "The War of 1812 and the Star-Spangled Banner",
+            "url": "https://americanhistory.si.edu/starspangledbanner/the-war-of-1812.aspx",
+            "description": "Connects the war to American national memory, especially the defense of Baltimore and the creation of the U.S. national anthem.",
+        },
+    ],
+    "EN-CA": [
+        {
+            "title": "War of 1812",
+            "url": "https://www.thecanadianencyclopedia.ca/en/article/war-of-1812",
+            "description": "Frames the war as a successful defense of Canada against American invasion and as an important moment in Canadian historical identity.",
+        },
+        {
+            "title": "The War of 1812",
+            "url": "https://www.warmuseum.ca/war-of-1812/",
+            "description": "Emphasizes Canadian, British, First Nations, and American experiences, with particular attention to the defense of Canada.",
+        },
+    ],
+    "EN-UK": [
+        {
+            "title": "War of 1812",
+            "url": "https://www.britannica.com/event/War-of-1812",
+            "description": "Places the war in a broader Atlantic and imperial context, where Britain was also occupied with the Napoleonic Wars.",
+        },
+        {
+            "title": "War of 1812",
+            "url": "https://en.wikipedia.org/wiki/War_of_1812",
+            "description": "From a British-centered perspective, the war is often treated as a secondary conflict compared with the larger struggle against Napoleonic France.",
+        },
+    ],
+},
 
     "Who invented the printing press?": {
         "English": [
@@ -356,16 +385,16 @@ MOCK_DISAGREEMENTS = {
         "confidence": "mock output based on Role 2 Case Book",
     },
     "Who discovered America?": {
-        "labels": ["Type B — Attribution", "Type D — Framing", "Type F — Omission"],
-        "summary": "The results differ not only in who is credited, but also in whether the question itself is legitimate. Spanish-language framing foregrounds Columbus, Icelandic framing foregrounds Leif Erikson, while Indigenous-perspective sources challenge the discovery premise altogether.",
-        "omission_notes": "A Columbus-centered result may omit earlier Norse contact or the prior existence of Indigenous peoples in the Americas.",
-        "confidence": "mock output based on Role 2 Case Book",
+    "labels": ["Type B — Attribution", "Type D — Framing", "Type F — Omission"],
+    "summary": "The results differ not only in who is credited with 'discovering' America, but also in whether the question itself is legitimate. An Indigenous-perspective source challenges the premise of discovery by emphasizing that the Americas were already inhabited by Indigenous peoples long before Columbus.",
+    "omission_notes": "A Columbus-centered result may omit earlier Norse contact and, more importantly, the prior existence of Indigenous peoples. In this case, the disagreement is not only about the answer, but about whether the word 'discovered' is an appropriate framing at all.",
+    "confidence": "mock output based on Role 2 Case Book",
     },
-    "Who won the War of 1812?": {
-        "labels": ["Type C — Outcome", "Type D — Framing"],
-        "summary": "The case does not produce one simple winner. Different traditions frame the outcome differently: as a restoration of the pre-war status quo, as a successful defense of Canada, or as a minor theatre within the larger Napoleonic Wars. The disagreement is therefore partly about outcome and partly about national framing.",
-        "omission_notes": "A single-language result may omit how other national traditions interpret the war's significance, especially the Canadian identity-building frame or the British Napoleonic-war frame.",
-        "confidence": "mock output based on Role 2 Case Book",
+   "Who won the War of 1812?": {
+    "labels": ["Type C — Outcome", "Type D — Framing"],
+    "summary": "The case shows that even within English-language results, national context changes the historical narrative. U.S.-oriented sources often frame the war as a defense of sovereignty or a second war of independence; Canadian sources emphasize the successful defense of Canada against American invasion; British sources tend to place the war as a secondary conflict within the larger Napoleonic Wars.",
+    "omission_notes": "A single English result panel may hide the fact that EN-US, EN-CA, and EN-UK sources each preserve a different sense of who 'won.' The disagreement is not only about the factual outcome, but about which national memory becomes centered.",
+    "confidence": "mock output based on Role 2 Case Book",
     },
     "When did the Roman Empire fall?": {
         "labels": ["Type E — Definitional Boundary; Type D — Framing"],
@@ -503,12 +532,16 @@ def detect_disagreement(question: str, translated_queries: Dict[str, str], resul
     if not OPENAI_API_KEY:
         raise RuntimeError("Missing OPENAI_API_KEY. Use USE_LIVE_LLM=false or add an OpenAI API key.")
 
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = OpenAI(
+        api_key=OPENAI_API_KEY,
+        base_url=OPENAI_BASE_URL
+    )
     source_text = build_llm_input(question, translated_queries, results_by_language)
 
     system_prompt = f"""
 You are the disagreement-detection layer for PRISM, a cross-language search prototype.
-
+You must write all output in English.
+Do not answer in Chinese, French, Dutch, or any other language, even if the source texts are multilingual.
 Do not synthesize all language results into one final answer.
 Instead, compare the language-specific result panels and identify where they differ.
 
@@ -604,24 +637,34 @@ if run_button:
                     language: translate_query(custom_question, language)
                     for language in selected_languages
                 }
-                results_by_language = {
-                    language: search_web(translated_queries[language], language, count=search_count)
-                    for language in selected_languages
-                }
+
+                # Special case: split War of 1812 into three English national contexts
+                if custom_question == "Who won the War of 1812?":
+                    translated_queries = {
+                        "EN-US": "Who won the War of 1812? United States perspective",
+                        "EN-CA": "Who won the War of 1812? Canadian perspective",
+                        "EN-UK": "Who won the War of 1812? British perspective",
+                    }
+
+                results_by_language = {}
+
+                for language, query in translated_queries.items():
+                    search_language = "English" if language in ["EN-US", "EN-CA", "EN-UK"] else language
+                    results_by_language[language] = search_web(query, search_language, count=search_count)
             except Exception as exc:
                 st.error(f"Translation/search error: {exc}")
                 st.stop()
 
         st.subheader("Translated queries")
-        query_cols = st.columns(len(selected_languages))
-        for col, language in zip(query_cols, selected_languages):
+        query_cols = st.columns(len(translated_queries))
+        for col, language in zip(query_cols, translated_queries):
             with col:
                 st.markdown(f"**{language}**")
                 st.write(translated_queries[language])
 
         st.subheader("Side-by-side multilingual search results")
-        result_cols = st.columns(len(selected_languages))
-        for col, language in zip(result_cols, selected_languages):
+        result_cols = st.columns(len(translated_queries))
+        for col, language in zip(result_cols, translated_queries):
             with col:
                 st.markdown(f"### {language}")
                 for i, result in enumerate(results_by_language[language], start=1):
@@ -641,7 +684,7 @@ if run_button:
         st.write(analysis.get("summary", ""))
         st.markdown("**Omission-specific notes:**")
         st.write(analysis.get("omission_notes", ""))
-        st.markdown("**Confidence:** " + analysis.get("confidence", ""))
+        st.markdown(f"**Confidence:** {analysis.get('confidence', '')}")
 
         export_df = make_export_rows(custom_question, translated_queries, results_by_language, analysis)
         csv_bytes = export_df.to_csv(index=False).encode("utf-8")
