@@ -679,6 +679,14 @@ if run_button:
                 st.stop()
 
         st.subheader("Disagreement detection")
+
+        # Show prominent banner if we fell back to mock
+        source_note = analysis.get("_source", "")
+        if "mock" in source_note.lower():
+            st.warning(f"⚠️ Showing mock output. Reason: {source_note}")
+        else:
+            st.success(f"✅ Live LLM classification. Source: {source_note}")
+            
         st.markdown("**Detected type(s):** " + ", ".join(analysis.get("labels", [])))
         st.markdown("**Comparative summary:**")
         st.write(analysis.get("summary", ""))
