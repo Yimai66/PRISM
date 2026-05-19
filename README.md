@@ -32,24 +32,24 @@ The current stable version uses:
 
 - **Live Brave Search API** for multilingual web search
 - **Case Book-based mock translations** for the six verified questions
-- **Case Book-based mock disagreement labels** for stable taxonomy output
+- **Live LLM disagreement detection** for taxonomy classification
 
-This means the prototype retrieves live search results where supported, while keeping translations and disagreement labels aligned with Role 2's manually verified Case Book.
+This means the prototype retrieves live search results where supported, uses manually verified translations from Role 2's Case Book, and asks an LLM to classify disagreement types based on the search result panels.
 
-This setup was chosen because it keeps the demo stable and reproducible for presentation and evaluation.
+This setup keeps the demo stable while still allowing Role 4 to evaluate the LLM's output against Role 2's human-coded Case Book labels.
 
 ---
 
-## Why Translation and LLM Are in Mock Mode
+## Why Translation Uses Mock Mode
 
 The prototype includes optional live modes for:
 
 - DeepL translation
-- OpenAI-based disagreement detection
+- OpenAI-compatible LLM disagreement detection
 
-However, during testing, the available DeepL and OpenAI API credentials produced authentication errors. To avoid an unstable demo, the current version keeps translation and disagreement classification in mock mode.
+In the current stable version, translation remains in mock mode because the six demo questions already have manually verified translations from Role 2's Case Book. This avoids translation instability and keeps the demo aligned with the case analysis.
 
-This is not just a technical fallback. It also keeps the prototype closely aligned with Role 2's manually verified cases, which is useful for Role 4's later evaluation.
+However, disagreement detection is now run through a live LLM API. The LLM receives the translated queries and search result panels, then classifies the disagreement using Role 2's six-type taxonomy.
 
 The current stable pipeline is therefore:
 
@@ -61,7 +61,7 @@ Live Brave Search API
 ↓
 Side-by-side multilingual results
 ↓
-Case Book-based disagreement classification
+Live LLM disagreement classification
 ↓
 CSV export for evaluation
 
@@ -88,7 +88,7 @@ The prototype does not compare every possible language for every question. Inste
 | -------------------------------- | -------------------------------- |
 | When did World War II start?     | English, Chinese, Russian        |
 | Who invented the printing press? | English, Chinese, Korean, German |
-| Who won the War of 1812?         | English                          |
+| Who won the War of 1812?         | EN-US, EN-CA, EN-UK                        |
 | What caused the Opium Wars?      | English, Chinese, French         |
 | When did the Roman Empire fall?  | English, Greek, Italian          |
 | Who discovered America?          | English, Spanish, Icelandic      |
@@ -139,14 +139,15 @@ The prototype does not return a simple "same / different" label. It classifies d
    ```env
    BRAVE_API_KEY=your_brave_key_here
    DEEPL_API_KEY=
-   OPENAI_API_KEY=
-   OPENAI_MODEL=gpt-4.1-mini
+   OPENAI_API_KEY=your_brave_key_here
+   If using an OpenAI-compatible API provider, set `OPENAI_BASE_URL` accordingly. If using the official OpenAI API, this can be left blank.
+   OPENAI_MODEL=gpt-4o-mini
 
    MOCK_MODE=false
 
    USE_LIVE_SEARCH=true
    USE_LIVE_TRANSLATION=false
-   USE_LIVE_LLM=false
+   USE_LIVE_LLM=true
    ```
 
 5. Run the app:
@@ -165,7 +166,8 @@ The prototype does not return a simple "same / different" label. It classifies d
 
 ## Notes and Limitations
 - Brave Search API is live in the current demo.
-- DeepL and OpenAI live modes are implemented but disabled in the stable version because of API authentication issues.
+- LLM disagreement detection is live in the current demo.
+- DeepL translation is implemented as an optional live mode, but the stable version uses Case Book-based translations because the six demo translations were manually verified.
 - Some Brave Search language-region combinations are not fully supported, so fallback results may be used.
 - The War of 1812 case is an edge case because it compares U.S., Canadian, and British English-language framings rather than separate languages.
 - This is a research prototype, not a production search engine.
@@ -173,5 +175,4 @@ The prototype does not return a simple "same / different" label. It classifies d
 ---
 
 ## Output for Role 4
-The app includes a CSV export button. The exported file can be used by Role 4 to compare prototype output with Role 2's manually verified Case Book labels.
-
+The app includes a CSV export button. The exported file can be used by Role 4 to compare the live LLM-generated disagreement labels with Role 2's manually verified Case Book labels.
