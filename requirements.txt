@@ -2,4 +2,5 @@ streamlit>=1.31
 requests>=2.31
 python-dotenv>=1.0
 openai>=1.30
+anthropic>=0.40
 pandas>=2.0
