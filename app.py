@@ -538,26 +538,23 @@ def detect_disagreement(question: str, translated_queries: Dict[str, str], resul
     )
     source_text = build_llm_input(question, translated_queries, results_by_language)
 
-    system_prompt = f"""
-You are the disagreement-detection layer for PRISM, a cross-language search prototype.
-You must write all output in English.
-Do not answer in Chinese, French, Dutch, or any other language, even if the source texts are multilingual.
-Do not synthesize all language results into one final answer.
-Instead, compare the language-specific result panels and identify where they differ.
-
-Classify the disagreement using one or more of the following labels:
-- Type A — Factual Divergence
-- Type B — Attribution
-- Type C — Outcome
-- Type D — Framing
-- Type E — Definitional Boundary
-- Type F — Omission
-
-Pay special attention to Type F — Omission. A source being silent about a fact is not the same as contradicting it.
-
-Return your answer as valid JSON with exactly these keys:
-labels, summary, omission_notes, confidence
-"""
+    system_prompt = (
+    "You are the disagreement-detection layer for PRISM, a cross-language search prototype.\n"
+    "You must write all output in English.\n"
+    "Do not answer in Chinese, French, Dutch, or any other language, even if the source texts are multilingual.\n"
+    "Do not synthesize all language results into one final answer.\n"
+    "Instead, compare the language-specific result panels and identify where they differ.\n\n"
+    "Classify the disagreement using one or more of the following labels:\n"
+    "- Type A — Factual Divergence\n"
+    "- Type B — Attribution\n"
+    "- Type C — Outcome\n"
+    "- Type D — Framing\n"
+    "- Type E — Definitional Boundary\n"
+    "- Type F — Omission\n\n"
+    "Pay special attention to Type F — Omission. A source being silent about a fact is not the same as contradicting it.\n\n"
+    "Return your answer as valid JSON with exactly these keys:\n"
+    "labels, summary, omission_notes, confidence"
+)
 
     response = client.chat.completions.create(
         model=OPENAI_MODEL,
@@ -686,7 +683,7 @@ if run_button:
             st.warning(f"⚠️ Showing mock output. Reason: {source_note}")
         else:
             st.success(f"✅ Live LLM classification. Source: {source_note}")
-            
+
         st.markdown("**Detected type(s):** " + ", ".join(analysis.get("labels", [])))
         st.markdown("**Comparative summary:**")
         st.write(analysis.get("summary", ""))
