@@ -1,6 +1,6 @@
 # PRISM Role 1 Research Diary
 
-## Week / Date
+## Week 7
 
 ## Aim
 This week I focused on building the technical prototype of PRISM. My goal was to create a working web demo that follows the pipeline: user question → translation → multilingual search → disagreement detection.
