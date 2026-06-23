@@ -34,6 +34,64 @@ def safe_name(text):
     return text[:80]
 
 
+def count_sentences(text):
+    """
+    Rough sentence counter for English, Chinese, Korean, Russian.
+    Counts common sentence-ending punctuation.
+    """
+    if not text or not isinstance(text, str):
+        return 0
+
+    endings = re.findall(r"[.!?。！？；;]", text)
+
+    if len(endings) > 0:
+        return len(endings)
+
+    # fallback: if there is a long lead but no punctuation, count it as 1 sentence
+    if len(text.strip()) > 80:
+        return 1
+
+    return 0
+
+
+def evaluate_case(metadata, required_langs=None):
+    """
+    Decide whether a case should be kept or dropped.
+
+    Drop if:
+    1. Any required language is missing.
+    2. Any required language has lead fewer than 2 sentences.
+    """
+    if required_langs is None:
+        required_langs = ["en", "zh", "ko", "ru"]
+
+    drop_reasons = []
+
+    for lang in required_langs:
+        lang_info = metadata["languages"].get(lang)
+
+        if lang_info is None:
+            drop_reasons.append(f"{lang}: missing_language_metadata")
+            continue
+
+        if lang_info.get("status") != "scraped":
+            drop_reasons.append(f"{lang}: {lang_info.get('status')}")
+            continue
+
+        lead_sentences = lang_info.get("lead_sentences", 0)
+        lead_chars = lang_info.get("lead_chars", 0)
+
+        # Keep if the lead has at least 2 sentence endings,
+        # or if it has 1 sentence but is still a substantial lead paragraph.
+        if lead_sentences < 2 and lead_chars < 150:
+            drop_reasons.append(
+                f"{lang}: lead_too_short_{lead_sentences}_sentences_{lead_chars}_chars"
+            )
+
+    keep = len(drop_reasons) == 0
+    return keep, drop_reasons
+
+
 def get_html(url):
     headers = {
         "User-Agent": "PRISM student research scraper for educational use"
@@ -78,12 +136,14 @@ def extract_language_links(en_html):
 def extract_lead_and_infobox(html):
     """
     Extract lead paragraphs and infobox text from Wikipedia HTML.
+    More robust version for English, Chinese, Korean, and Russian pages.
     """
     soup = BeautifulSoup(html, "html.parser")
 
     for tag in soup(["script", "style", "sup"]):
         tag.decompose()
 
+    # Extract infobox
     infobox_text = ""
     infobox = soup.find("table", class_=lambda c: c and "infobox" in c)
     if infobox:
@@ -96,6 +156,7 @@ def extract_lead_and_infobox(html):
         parser_output = content.find("div", class_="mw-parser-output")
 
         if parser_output:
+            # Method 1: direct children before first heading
             for child in parser_output.children:
                 name = getattr(child, "name", None)
 
@@ -107,8 +168,28 @@ def extract_lead_and_infobox(html):
 
                 if name == "p":
                     text = child.get_text(" ", strip=True)
-                    if text:
+                    if text and len(text) > 30:
                         lead_paragraphs.append(text)
+
+            # Method 2 fallback: if direct-child method fails, take first useful paragraphs
+            if not lead_paragraphs:
+                all_paragraphs = parser_output.find_all("p")
+
+                for p in all_paragraphs:
+                    text = p.get_text(" ", strip=True)
+
+                    if not text:
+                        continue
+
+                    # skip very short or navigation-like paragraphs
+                    if len(text) < 30:
+                        continue
+
+                    lead_paragraphs.append(text)
+
+                    # enough lead content
+                    if len(lead_paragraphs) >= 3:
+                        break
 
     lead_text = "\n\n".join(lead_paragraphs)
 
@@ -133,6 +214,9 @@ def scrape(test_rows=10):
     df = pd.read_excel(INPUT_FILE)
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    kept_cases = []
+    dropped_cases = []
 
     if test_rows is not None:
         df = df.head(test_rows)
@@ -171,8 +255,29 @@ def scrape(test_rows=10):
                 "status": "missing_article"
             }
 
+            os.makedirs(case_folder, exist_ok=True)
+
+            keep, drop_reasons = evaluate_case(metadata)
+            metadata["keep"] = keep
+            metadata["drop_reasons"] = drop_reasons
+
+            case_record = {
+                "id": metadata["id"],
+                "entity": metadata["clean_entity"],
+                "question": metadata["question"],
+                "keep": keep,
+                "drop_reasons": "; ".join(drop_reasons)
+            }
+
+            for lang in LANGS:
+                lang_info = metadata["languages"].get(lang, {})
+                case_record[f"{lang}_status"] = lang_info.get("status", "missing")
+                case_record[f"{lang}_lead_sentences"] = lang_info.get("lead_sentences", 0)
+                case_record[f"{lang}_url"] = lang_info.get("url", "")
+
+            dropped_cases.append(case_record)
+
             with open(os.path.join(case_folder, "metadata.json"), "w", encoding="utf-8") as f:
-                os.makedirs(case_folder, exist_ok=True)
                 json.dump(metadata, f, indent=2, ensure_ascii=False)
 
             continue
@@ -185,6 +290,7 @@ def scrape(test_rows=10):
             "url": en_url,
             "status": "scraped",
             "lead_chars": len(en_lead),
+            "lead_sentences": count_sentences(en_lead),
             "has_infobox": bool(en_infobox)
         }
 
@@ -222,6 +328,7 @@ def scrape(test_rows=10):
                 "url": url,
                 "status": "scraped",
                 "lead_chars": len(lead_text),
+                "lead_sentences": count_sentences(lead_text),
                 "has_infobox": bool(infobox_text)
             }
 
@@ -229,9 +336,67 @@ def scrape(test_rows=10):
 
             time.sleep(0.5)
 
+        keep, drop_reasons = evaluate_case(metadata)
+
+        metadata["keep"] = keep
+        metadata["drop_reasons"] = drop_reasons
+
+        case_record = {
+            "id": metadata["id"],
+            "entity": metadata["clean_entity"],
+            "question": metadata["question"],
+            "keep": keep,
+            "drop_reasons": "; ".join(drop_reasons)
+        }
+
+        for lang in LANGS:
+            lang_info = metadata["languages"].get(lang, {})
+            case_record[f"{lang}_status"] = lang_info.get("status", "missing")
+            case_record[f"{lang}_lead_sentences"] = lang_info.get("lead_sentences", 0)
+            case_record[f"{lang}_url"] = lang_info.get("url", "")
+
+        if keep:
+            kept_cases.append(case_record)
+        else:
+            dropped_cases.append(case_record)
+
         with open(os.path.join(case_folder, "metadata.json"), "w", encoding="utf-8") as f:
             json.dump(metadata, f, indent=2, ensure_ascii=False)
 
+    kept_df = pd.DataFrame(kept_cases)
+    dropped_df = pd.DataFrame(dropped_cases)
+
+    os.makedirs("weak_set", exist_ok=True)
+
+    kept_df.to_csv("weak_set/kept_cases.csv", index=False)
+    dropped_df.to_csv("weak_set/drop_log.csv", index=False)
+
+    total = len(kept_cases) + len(dropped_cases)
+    dropped = len(dropped_cases)
+    kept = len(kept_cases)
+    drop_rate = dropped / total if total > 0 else 0
+
+    summary = {
+        "total_candidates": total,
+        "kept_cases": kept,
+        "dropped_cases": dropped,
+        "drop_rate": drop_rate
+    }
+
+    with open("weak_set/drop_summary.json", "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
+
+    print("\n==============================")
+    print("SCRAPE + FILTER SUMMARY")
+    print("==============================")
+    print(f"Total candidates: {total}")
+    print(f"Kept cases: {kept}")
+    print(f"Dropped cases: {dropped}")
+    print(f"Drop rate: {drop_rate:.2%}")
+    print("Saved:")
+    print("  weak_set/kept_cases.csv")
+    print("  weak_set/drop_log.csv")
+    print("  weak_set/drop_summary.json")
 
 if __name__ == "__main__":
-    scrape(test_rows=10)
+    scrape(test_rows=None)

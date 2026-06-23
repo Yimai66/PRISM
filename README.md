@@ -1,105 +1,129 @@
-# PRISM Role 1 Prototype
+# PRISM: Cross-Language Search Prototype
 
 ## Overview
 
-PRISM is a cross-language search prototype that runs the same question across multiple language contexts and displays the results side by side.
+PRISM is a cross-language search engine built in the first half of the course. You type a
+question, it runs that question on Wikipedia in a few languages at once, shows the results in side
+by side columns, and an LLM looks at the columns and tries to label what kind of disagreement
+is between them. 
 
 The purpose of PRISM is not to produce one single final answer. Instead, it is designed to show how different language communities, source contexts, or national framings may answer the same question differently.
 
-This repository contains the Role 1 technical prototype for the PRISM group project.
+This repository contains the technical prototype and dataset-processing scripts for the PRISM group project.
 
 ---
 
-## Role 1 Goal
+## Prototype Features
 
-Role 1 is responsible for building the working web demo.
-
-The prototype includes:
+The repository includes:
 
 - a user question input box
-- six preset demo questions from Role 2's Case Book
 - case-specific language selections
-- translated queries
-- side-by-side multilingual search results
-- disagreement detection based on Role 2's six-type taxonomy
-- CSV export for Role 4 evaluation
+- side-by-side multilingual Wikipedia result panels
+- translated query handling for supported demo cases
+- disagreement detection based on the six-type taxonomy
+- CSV export for evaluation
+- scraper and classifier scripts for the weak set and Case Book evaluations
 
 ---
 
 ## Current Stable Version
 
-The current stable version uses:
+The current stable version supports both the live demo and the evaluation pipeline.
 
-- **Live Brave Search API** for multilingual web search
-- **Case Book-based mock translations** for the six verified questions
-- **Live LLM disagreement detection** for taxonomy classification
+For the live demo, the app can take a user question, show multilingual search results side by side, and use an LLM-based classifier to label the disagreement type.
 
-This means the prototype retrieves live search results where supported, uses manually verified translations from Role 2's Case Book, and asks an LLM to classify disagreement types based on the search result panels.
+For the dataset pipeline, the repository now includes:
 
-This setup keeps the demo stable while still allowing Role 4 to evaluate the LLM's output against Role 2's human-coded Case Book labels.
+- a Wikipedia scraper for the weak-set candidates
+- filtering logic for missing pages and short lead text
+- classifier outputs for the 133 surviving weak-set cases
+- a separate Case Book classifier output for Case-1 through Case-12
 
----
+The weak-set pipeline starts from 150 candidate cases. After scraping and filtering, 133 cases were kept, giving an 89% yield. Dropped cases and reasons are recorded in `weak_set/drop_log.csv`.
 
-## Why Translation Uses Mock Mode
-
-The prototype includes optional live modes for:
-
-- DeepL translation
-- OpenAI-compatible LLM disagreement detection
-
-In the current stable version, translation remains in mock mode because the six demo questions already have manually verified translations from Role 2's Case Book. This avoids translation instability and keeps the demo aligned with the case analysis.
-
-However, disagreement detection is now run through a live LLM API. The LLM receives the translated queries and search result panels, then classifies the disagreement using Role 2's six-type taxonomy.
-
-The current stable pipeline is therefore:
-
-User question
-↓
-Case Book-based translation
-↓
-Live Brave Search API
-↓
-Side-by-side multilingual results
-↓
-Live LLM disagreement classification
-↓
-CSV export for evaluation
+The Case Book evaluation is kept separate from the weak-set evaluation. `sacred_set/predictions_casebook12.csv` contains predictions for Case-1 through Case-12, while `weak_set/predictions.csv` contains predictions for the 133 surviving weak-set candidate IDs.
 
 ---
 
-## Six Demo Questions
+## Repository Structure
 
-The prototype includes all six questions from Role 2's Case Book:
+```text
+data/
+  150_candidates.xlsx
+  PRISM_CaseBook_Cases_1-12_Merged-2.pdf
 
--When did World War II start?
--Who invented the printing press?
--Who won the War of 1812?
--What caused the Opium Wars?
--When did the Roman Empire fall?
--Who discovered America?
+scripts/
+  wiki_scraper.py
+  run_weak_classifier.py
+  run_casebook_classifier.py
 
-Each preset question uses the language set identified in the Case Book.
+weak_set/
+  scraped/
+  kept_cases.csv
+  drop_log.csv
+  drop_summary.json
+  predictions.csv
+
+sacred_set/
+  predictions_casebook12.csv
+
+app.py
+README.md
+requirements.txt
+```
+
+---
+
+## Live and Mock Modes
+
+The prototype supports both mock and live components.
+
+For the live demo, the app can use live search results and an OpenAI-compatible LLM API to classify disagreement types. The LLM receives the user question, the language-specific result panels, and the six-type disagreement taxonomy.
+
+Some parts of the demo can still use mock or pre-selected inputs when needed. This keeps the demo stable for presentation and avoids unexpected changes from live search or translation results.
+
+The current stable pipeline is:
+
+User question → language-specific search/results → side-by-side multilingual panels → LLM disagreement classification → CSV export for evaluation
+
+---
+
+## Case Book and Weak Set Evaluation
+
+The project now includes two evaluation outputs.
+
+The first output is the Case Book evaluation. This uses the 12 hand-written Case Book cases, with IDs from Case-1 to Case-12. The prediction file is: 
+
+`sacred_set/predictions_casebook12.csv`
+The second output is the weak-set evaluation. The weak set started from 150 candidate cases. After scraping and filtering, 133 cases were kept. The prediction file is: 
+
+`weak_set/predictions.csv`
+
+Dropped weak-set cases and their reasons are recorded in: 
+
+`weak_set/drop_log.csv`
+
+These two evaluation files are kept separate because they use different ID systems. The Case Book file uses Case-1 to Case-12, while the weak-set file uses candidate IDs such as T1-03 and T2-05.
 
 ---
 
 ## Case-Specific Language Sets
-The prototype does not compare every possible language for every question. Instead, each case uses the languages selected and verified by Role 2.
-| Case                             | Languages                        |
-| -------------------------------- | -------------------------------- |
-| When did World War II start?     | English, Chinese, Russian        |
-| Who invented the printing press? | English, Chinese, Korean, German |
-| Who won the War of 1812?         | EN-US, EN-CA, EN-UK                        |
-| What caused the Opium Wars?      | English, Chinese, French         |
-| When did the Roman Empire fall?  | English, Greek, Italian          |
-| Who discovered America?          | English, Spanish, Icelandic      |
 
+PRISM uses different language settings for the Case Book evaluation and the weak-set pipeline.
 
-The War of 1812 case is treated as an edge case because its disagreement is mainly between U.S., Canadian, and British English-language framings rather than between clearly separate languages.
+For the Case Book evaluation, the language set is case-specific. Each of the 12 Case Book cases uses the languages that are most relevant to that question. For example, the North Pole case compares English, Russian, and Norwegian, while the printing case compares English, Chinese, Korean, and German.
+
+For the weak-set pipeline, we used a fixed four-language setup: English, Chinese, Korean, and Russian. The scraper attempted to collect the lead text and infobox from these four Wikipedia language editions for each candidate case.
+
+A weak-set case was kept only if the required language pages and usable lead text were available. Cases with missing pages or very short lead text were recorded in `weak_set/drop_log.csv`.
+
+This means that the Case Book evaluation uses case-specific language comparison, while the weak-set expansion uses a fixed multilingual pipeline for consistency.
 
 ---
 
 ## Disagreement Taxonomy
-The disagreement detection is based on Role 2's six-type taxonomy:
+The disagreement detection is based on a six-type taxonomy.
 | Type                           | Description                                                                                |
 | ------------------------------ | ------------------------------------------------------------------------------------------ |
 | Type A — Factual Divergence    | Sources state different concrete facts, such as dates, names, or numbers.                  |
@@ -125,7 +149,7 @@ The prototype does not return a simple "same / different" label. It classifies d
 2. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   python3 -m pip install -r requirements.txt
    ```
 
 3. Create a `.env` file from the example file:
@@ -134,12 +158,12 @@ The prototype does not return a simple "same / different" label. It classifies d
    cp .env.example .env
    ```
 
-4. Use this stable configuration in `.env`:
+4. Add the required API keys in `.env`:
 
    ```env
    BRAVE_API_KEY=your_brave_key_here
    DEEPL_API_KEY=
-   OPENAI_API_KEY=your_brave_key_here
+   OPENAI_API_KEY=your_openai_key_here
    If using an OpenAI-compatible API provider, set `OPENAI_BASE_URL` accordingly. If using the official OpenAI API, this can be left blank.
    OPENAI_MODEL=gpt-4o-mini
 
@@ -164,15 +188,60 @@ The prototype does not return a simple "same / different" label. It classifies d
 
 ---
 
-## Notes and Limitations
-- Brave Search API is live in the current demo.
-- LLM disagreement detection is live in the current demo.
-- DeepL translation is implemented as an optional live mode, but the stable version uses Case Book-based translations because the six demo translations were manually verified.
-- Some Brave Search language-region combinations are not fully supported, so fallback results may be used.
-- The War of 1812 case is an edge case because it compares U.S., Canadian, and British English-language framings rather than separate languages.
-- This is a research prototype, not a production search engine.
+## How to Reproduce the Evaluation Outputs
+
+The repository includes scripts for reproducing the weak-set and Case Book prediction files.
+
+Run the weak-set scraper and filtering step:
+
+```bash
+python3 scripts/wiki_scraper.py
+```
+
+This creates or updates the following files:
+
+```text
+weak_set/kept_cases.csv
+weak_set/drop_log.csv
+weak_set/drop_summary.json
+weak_set/scraped/
+```
+
+Run the classifier on the surviving weak-set cases:
+
+```bash
+python3 scripts/run_weak_classifier.py
+```
+
+This creates or updates:
+
+```text
+weak_set/predictions.csv
+```
+
+Run the classifier on the 12 Case Book cases:
+
+```bash
+python3 scripts/run_casebook_classifier.py
+```
+
+This creates or updates:
+
+```text
+sacred_set/predictions_casebook12.csv
+```
+
+The weak-set prediction file and the Case Book prediction file are kept separate because they use different ID systems. The weak-set file uses candidate IDs such as `T1-03`, while the Case Book file uses IDs from `Case-1` to `Case-12`.
 
 ---
 
-## Output for Role 4
-The app includes a CSV export button. The exported file can be used by Role 4 to compare the live LLM-generated disagreement labels with Role 2's manually verified Case Book labels.
+## Notes and Limitations
+
+- This is a research prototype, not a production search engine.
+- Brave Search API is used for live multilingual search in the demo.
+- LLM disagreement detection is live when USE_LIVE_LLM=true.
+- Live translation is optional. The stable demo can use pre-selected or manually checked query inputs when needed, to keep the presentation stable.
+- Some language-region combinations are not fully supported by the search API, so fallback results may be used.
+- The Case Book evaluation and weak-set evaluation are separate. The Case Book output uses IDs from Case-1 to Case-12, while the weak-set output uses candidate IDs such as T1-03.
+- The weak-set prediction file only includes cases that passed the scraping and filtering stage. Dropped cases and reasons are recorded in `weak_set/drop_log.csv`.
+- The War of 1812 case is an edge case because it compares U.S., Canadian, and British English-language framings rather than clearly separate languages.
