@@ -1,0 +1,42 @@
+{
+  "id": "T1-04",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Yom Kippur War",
+  "clean_entity": "Yom Kippur War",
+  "question": "Who won the Yom Kippur War?",
+  "primary_type": "C (Outcome)",
+  "notes": "Israeli vs Egyptian/Syrian framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Yom_Kippur_War",
+      "status": "scraped",
+      "lead_chars": 2652,
+      "lead_sentences": 20,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%96%E7%BD%AA%E6%97%A5%E6%88%B0%E7%88%AD",
+      "status": "scraped",
+      "lead_chars": 774,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9A%A4%ED%82%A4%ED%91%B8%EB%A5%B4_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 918,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%A1%D1%83%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BD%D1%8F",
+      "status": "scraped",
+      "lead_chars": 430,
+      "lead_sentences": 6,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

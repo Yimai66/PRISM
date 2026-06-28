@@ -1,0 +1,42 @@
+{
+  "id": "T5-20",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Crusades",
+  "clean_entity": "Crusades",
+  "question": "What caused the Crusades?",
+  "primary_type": "D (Framing)",
+  "notes": "European vs Islamic vs Eastern Christian framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Crusades",
+      "status": "scraped",
+      "lead_chars": 3541,
+      "lead_sentences": 22,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%81%E5%AD%97%E8%BB%8D%E6%9D%B1%E5%BE%81",
+      "status": "scraped",
+      "lead_chars": 1381,
+      "lead_sentences": 24,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%8B%AD%EC%9E%90%EA%B5%B0",
+      "status": "scraped",
+      "lead_chars": 1065,
+      "lead_sentences": 13,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D1%8B",
+      "status": "scraped",
+      "lead_chars": 1685,
+      "lead_sentences": 13,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

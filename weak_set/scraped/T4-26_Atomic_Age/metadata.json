@@ -1,0 +1,41 @@
+{
+  "id": "T4-26",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Atomic Age",
+  "clean_entity": "Atomic Age",
+  "question": "When did the Atomic Age start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "1945 vs 1942",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Atomic_Age",
+      "status": "scraped",
+      "lead_chars": 2339,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%B8%E5%AD%90%E6%99%82%E4%BB%A3",
+      "status": "scraped",
+      "lead_chars": 533,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9B%90%EC%9E%90_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 738,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": null,
+      "status": "missing_language_link"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "ru: missing_language_link"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T4-24",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Silk Road",
+  "clean_entity": "Silk Road",
+  "question": "When did the Silk Road start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "name and dating modern construction",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Silk_Road",
+      "status": "scraped",
+      "lead_chars": 4340,
+      "lead_sentences": 30,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%9D%E7%BB%B8%E4%B9%8B%E8%B7%AF",
+      "status": "scraped",
+      "lead_chars": 683,
+      "lead_sentences": 11,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%8B%A8%EA%B8%B8",
+      "status": "scraped",
+      "lead_chars": 1076,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D1%88%D1%91%D0%BB%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%83%D1%82%D1%8C",
+      "status": "scraped",
+      "lead_chars": 1934,
+      "lead_sentences": 15,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

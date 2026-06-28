@@ -1,0 +1,23 @@
+{
+  "id": "T3-26",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "the structure of insulin",
+  "clean_entity": "structure of insulin",
+  "question": "Who discovered the structure of insulin?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Sanger and Hodgkin",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/structure_of_insulin",
+      "status": "missing_article"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: missing_article",
+    "zh: missing_language_metadata",
+    "ko: missing_language_metadata",
+    "ru: missing_language_metadata"
+  ]
+}

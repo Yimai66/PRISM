@@ -1,0 +1,42 @@
+{
+  "id": "T4-11",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Russian Revolution",
+  "clean_entity": "Russian Revolution",
+  "question": "When did the Russian Revolution start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "February vs October vs 1922 end",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Russian_Revolution",
+      "status": "scraped",
+      "lead_chars": 4745,
+      "lead_sentences": 40,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/1917%E5%B9%B4%E4%BF%84%E5%9B%BD%E9%9D%A9%E5%91%BD",
+      "status": "scraped",
+      "lead_chars": 366,
+      "lead_sentences": 5,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%84_%ED%98%81%EB%AA%85",
+      "status": "scraped",
+      "lead_chars": 765,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F_1917_%D0%B3%D0%BE%D0%B4%D0%B0_%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8",
+      "status": "scraped",
+      "lead_chars": 715,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

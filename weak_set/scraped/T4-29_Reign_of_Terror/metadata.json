@@ -1,0 +1,42 @@
+{
+  "id": "T4-29",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Reign of Terror",
+  "clean_entity": "Reign of Terror",
+  "question": "When did the Reign of Terror start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "1793 vs 1794 endpoints",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+      "status": "scraped",
+      "lead_chars": 1357,
+      "lead_sentences": 10,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%81%90%E6%80%96%E7%BB%9F%E6%B2%BB_(%E6%B3%95%E5%9B%BD%E5%A4%A7%E9%9D%A9%E5%91%BD)",
+      "status": "scraped",
+      "lead_chars": 837,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EA%B3%B5%ED%8F%AC_%EC%A0%95%EC%B9%98",
+      "status": "scraped",
+      "lead_chars": 780,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B8%D0%BE%D0%B4_%D1%82%D0%B5%D1%80%D1%80%D0%BE%D1%80%D0%B0",
+      "status": "scraped",
+      "lead_chars": 620,
+      "lead_sentences": 4,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T2-29",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the locomotive",
+  "clean_entity": "locomotive",
+  "question": "Who invented the locomotive?",
+  "primary_type": "B (Attribution)",
+  "notes": "Trevithick vs Stephenson",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/locomotive",
+      "status": "scraped",
+      "lead_chars": 443,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%90%B5%E8%B7%AF%E6%A9%9F%E8%BB%8A",
+      "status": "scraped",
+      "lead_chars": 343,
+      "lead_sentences": 8,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B4%80%EC%B0%A8",
+      "status": "scraped",
+      "lead_chars": 502,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D0%B2",
+      "status": "scraped",
+      "lead_chars": 918,
+      "lead_sentences": 17,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

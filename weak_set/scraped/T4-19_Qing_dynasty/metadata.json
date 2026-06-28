@@ -1,0 +1,42 @@
+{
+  "id": "T4-19",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Qing dynasty",
+  "clean_entity": "Qing dynasty",
+  "question": "When did the Qing dynasty start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "1636 founding vs 1644 conquest",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Qing_dynasty",
+      "status": "scraped",
+      "lead_chars": 4952,
+      "lead_sentences": 29,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%9C%9D",
+      "status": "scraped",
+      "lead_chars": 2096,
+      "lead_sentences": 32,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EB%82%98%EB%9D%BC",
+      "status": "scraped",
+      "lead_chars": 491,
+      "lead_sentences": 7,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%A6%D0%B8%D0%BD",
+      "status": "scraped",
+      "lead_chars": 673,
+      "lead_sentences": 8,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

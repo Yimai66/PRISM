@@ -1,0 +1,41 @@
+{
+  "id": "T4-03",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Enlightenment",
+  "clean_entity": "Enlightenment",
+  "question": "When did the Enlightenment start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "national traditions differ widely",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Enlightenment",
+      "status": "scraped",
+      "lead_chars": 40,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": null,
+      "status": "missing_language_link"
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%9D%BC%EC%9D%B4%ED%8A%BC%EB%A8%BC%ED%8A%B8",
+      "status": "scraped",
+      "lead_chars": 33,
+      "lead_sentences": 1,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": null,
+      "status": "missing_language_link"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: lead_too_short_0_sentences_40_chars",
+    "zh: missing_language_link",
+    "ko: lead_too_short_1_sentences_33_chars",
+    "ru: missing_language_link"
+  ]
+}

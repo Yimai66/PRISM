@@ -1,0 +1,42 @@
+{
+  "id": "T3-04",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "Hawaii",
+  "clean_entity": "Hawaii",
+  "question": "Who discovered Hawaii?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Cook vs Polynesian voyagers",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Hawaii",
+      "status": "scraped",
+      "lead_chars": 4809,
+      "lead_sentences": 67,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%8F%E5%A8%81%E5%A4%B7%E5%B7%9E",
+      "status": "scraped",
+      "lead_chars": 504,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%95%98%EC%99%80%EC%9D%B4%EC%A3%BC",
+      "status": "scraped",
+      "lead_chars": 626,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D0%B8",
+      "status": "scraped",
+      "lead_chars": 871,
+      "lead_sentences": 12,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

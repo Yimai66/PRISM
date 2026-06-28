@@ -1,0 +1,42 @@
+{
+  "id": "T5-24",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the 1848 Revolutions",
+  "clean_entity": "1848 Revolutions",
+  "question": "What caused the 1848 Revolutions?",
+  "primary_type": "D (Framing)",
+  "notes": "nationalist vs liberal vs socialist framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/1848_Revolutions",
+      "status": "scraped",
+      "lead_chars": 1945,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/1848%E5%B9%B4%E9%9D%A9%E5%91%BD",
+      "status": "scraped",
+      "lead_chars": 272,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/1848%EB%85%84_%ED%98%81%EB%AA%85",
+      "status": "scraped",
+      "lead_chars": 891,
+      "lead_sentences": 14,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8_1848%E2%80%941849_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2",
+      "status": "scraped",
+      "lead_chars": 1190,
+      "lead_sentences": 8,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

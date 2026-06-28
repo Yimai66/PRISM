@@ -1,0 +1,42 @@
+{
+  "id": "T4-01",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Renaissance",
+  "clean_entity": "Renaissance",
+  "question": "When did the Renaissance start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "Italian vs European-wide framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Renaissance",
+      "status": "scraped",
+      "lead_chars": 2143,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E8%89%BA%E5%A4%8D%E5%85%B4",
+      "status": "scraped",
+      "lead_chars": 1236,
+      "lead_sentences": 25,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%A5%B4%EB%84%A4%EC%83%81%EC%8A%A4",
+      "status": "scraped",
+      "lead_chars": 873,
+      "lead_sentences": 14,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B7%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5",
+      "status": "scraped",
+      "lead_chars": 1605,
+      "lead_sentences": 14,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

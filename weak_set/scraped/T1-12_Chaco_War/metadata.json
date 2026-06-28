@@ -1,0 +1,42 @@
+{
+  "id": "T1-12",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Chaco War",
+  "clean_entity": "Chaco War",
+  "question": "Who won the Chaco War?",
+  "primary_type": "C (Outcome)",
+  "notes": "Paraguay vs Bolivia",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Chaco_War",
+      "status": "scraped",
+      "lead_chars": 1193,
+      "lead_sentences": 7,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%A5%E7%A7%91%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 466,
+      "lead_sentences": 7,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%BD%94_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 700,
+      "lead_sentences": 11,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+      "status": "scraped",
+      "lead_chars": 156,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

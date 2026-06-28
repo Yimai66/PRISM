@@ -1,0 +1,251 @@
+LEAD PARAGRAPHS
+================
+Neptune is the eighth and farthest known planet orbiting the Sun . It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet . It is 17 times the mass of Earth . Compared to Uranus , its neighbouring ice giant , Neptune is slightly smaller, but more massive and dense. Being composed primarily of gases and liquids, it has no well-defined solid surface. Neptune orbits the Sun once every 164.8 years at an orbital distance of 30.1 astronomical units (4.5 billion kilometres; 2.8 billion miles). It is named after the Roman god of the sea and has the astronomical symbol , representing Neptune's trident .
+
+Neptune is not visible to the unaided eye and is the only planet in the Solar System that was not initially observed by direct empirical observation . Rather, unexpected changes in the orbit of Uranus led Alexis Bouvard to hypothesise that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was mathematically predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier . Neptune was subsequently directly observed with a telescope on 23 September 1846 by Johann Gottfried Galle within a degree of the position predicted by Le Verrier. Its largest moon, Triton , was discovered shortly thereafter, though none of the planet's remaining moons were located telescopically until the 20th century.
+
+The planet's distance from Earth gives it a small apparent size , and its distance from the Sun renders it very dim, making it challenging to study with Earth-based telescopes. Only the advent of the Hubble Space Telescope and of large ground-based telescopes with adaptive optics allowed for detailed observations. Voyager 2 , which flew by Neptune on 25 August 1989, remains the only spacecraft to visit the planet. Like the gas giants ( Jupiter and Saturn ), Neptune's atmosphere is composed primarily of hydrogen and helium , along with traces of hydrocarbons and possibly nitrogen , but contains a higher proportion of ices such as water, ammonia and methane . Similar to Uranus, its interior is primarily composed of ices and rock; both planets are normally considered "ice giants" to distinguish them. Along with Rayleigh scattering , traces of methane in the outermost regions make Neptune appear faintly blue.
+
+In contrast to the strongly seasonal atmosphere of Uranus, which can be featureless for long periods of time, Neptune's atmosphere has active and consistently visible weather patterns. At the time of the Voyager 2 flyby in 1989, the planet's southern hemisphere had a Great Dark Spot comparable to the Great Red Spot on Jupiter. In 2018, a newer main dark spot and smaller dark spot were identified and studied. These weather patterns are driven by the strongest sustained winds of any planet in the Solar System, as high as 2,100 km/h (580 m/s; 1,300 mph). Because of its great distance from the Sun, Neptune's outer atmosphere is one of the coldest places in the Solar System, with temperatures at its cloud tops approaching 55 K (−218 °C ; −361 °F ). Temperatures at the planet's centre are approximately 5,400 K (5,100 °C; 9,300 °F). Neptune has a faint and fragmented ring system (labelled "arcs"), discovered in 1984 and confirmed by Voyager 2 .
+
+
+INFOBOX
+=======
+Neptune
+Neptune in true colour, taken by
+Voyager 2
+on August 25, 1989;
+at centre is the
+Great Dark Spot
+Discovery
+Discovered by
+Johann Galle
+Urbain Le Verrier
+John Couch Adams
+Discovery date
+23 September 1846
+Designations
+Pronunciation
+US
+:
+/
+ˈ
+n
+ɛ
+p
+t
+uː
+n
+/
+,
+UK
+:
+/-
+tj
+uː
+n
+/
+Named after
+Latin
+Neptunus
+, via French
+Neptune
+Adjectives
+Neptunian (
+/
+n
+ɛ
+p
+ˈ
+tj
+uː
+n
+i
+ən
+/
+),
+Poseidean
+Symbol
+,
+Orbital characteristics
+Epoch
+J2000
+Aphelion
+30.33
+AU
+(4.54 billion km)
+Perihelion
+29.81 AU (4.46 billion km)
+Semi-major axis
+30.07 AU (4.50 billion km)
+Eccentricity
+0.008
+678
+Orbital period (sidereal)
+164.8
+yr
+60,195 days
+89,666 Neptunian
+solar days
+Orbital period (synodic)
+367.49 days
+Average
+orbital speed
+5.45 km/s
+Mean anomaly
+259.883°
+Inclination
+1.770°
+to
+ecliptic
+6.43° to
+Sun
+'s equator
+0.74° to
+invariable plane
+Longitude of ascending node
+131.783°
+Time of perihelion
+2042-Sep-04
+Argument of perihelion
+273.187°
+Known
+satellites
+16
+Physical characteristics
+Mean radius
+24,622
+±
+19 km
+Equatorial
+radius
+24
+760
+.6 km
+Polar
+radius
+24
+285
+.3 km
+Flattening
+0.0171
+±
+0.0013
+Surface area
+7.6183
+×
+10
+km
+14.94 Earths
+Volume
+6.254
+×
+10
+km
+57.74 Earths
+Mass
+(1.024
+092
+±
+0.000
+048
+)
+×
+10
+kg
+17.147 Earths
+5.15
+×
+10
+Suns
+Mean
+density
+1.638 g/cm
+Surface gravity
+11.27 m/s
+(1.149
+g
+0
+)
+Moment of inertia factor
+0.23
+(estimate)
+Escape velocity
+23.5 km/s
+Synodic rotation period
+0.671
+25
+d
+16 h 6 m 36 s
+Sidereal rotation period
+0.673 day
+16 h 6 min 36 s
+Equatorial rotation velocity
+2.68 km/s
+Axial tilt
+28.32° (to orbit)
+North pole
+right ascension
+19
+57
+20
+299.36°
+North pole
+declination
+43.46°
+Albedo
+0.290 (
+bond
+)
+0.442 (
+geom.
+)
+Surface
+temp.
+min
+mean
+max
+1 bar level
+72
+K
+(−201 °C)
+0.1 bar (10 kPa)
+55
+K
+(−218 °C)
+Apparent magnitude
+7.67
+to 8.00
+Absolute magnitude
+(H)
+−6.9
+Angular diameter
+2.2–2.4″
+Atmosphere
+Scale height
+19.7
+±
+0.6 km
+Composition by volume
+80%
+±
+3.2%
+hydrogen
+19%
+±
+3.2%
+helium
+1.5%
+±
+0.5%
+methane
+~0.019%
+hydrogen deuteride
+~0.00015%
+ethane
+Icy
+volatiles
+:
+ammonia
+water ice
+ammonium hydrosulfide

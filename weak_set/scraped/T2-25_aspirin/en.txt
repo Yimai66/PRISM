@@ -1,0 +1,193 @@
+LEAD PARAGRAPHS
+================
+Aspirin ( / ˈ æ s p ( ə ) r ɪ n / ) is the genericized trademark for acetylsalicylic acid ( ASA ), a nonsteroidal anti-inflammatory drug (NSAID) used to reduce pain , fever , and inflammation , and as an antithrombotic . Aspirin is used to treat inflammatory conditions including Kawasaki disease , pericarditis , and rheumatic fever .
+
+Aspirin is also used long-term to reduce the chance of heart attack , ischaemic stroke , and blood clots occurring in people considered to be at high risk for such events. For pain or fever, effects typically begin within 30 minutes. Aspirin works similarly to other NSAIDs but also suppresses the normal functioning of platelets .
+
+One common adverse effect is an upset stomach . More significant side effects include stomach ulcers , stomach bleeding , and worsening asthma . Bleeding risk is greater among those who are older, drink alcohol , take other NSAIDs, or are on other blood thinners . Aspirin is not recommended in the last part of pregnancy . It is not generally recommended in children with viral infections because of the risk of Reye syndrome . High doses may result in ringing in the ears .
+
+A precursor to aspirin found in the bark of the willow tree (genus Salix ), salicin , is metabolized in the human gut into the medicinally active compound salicylic acid and has been used for its health effects for at least 2,400 years. Pharmacology sought a synthetic alternative. In 1853, the chemist Charles Frédéric Gerhardt treated the medicine sodium salicylate with acetyl chloride to produce acetylsalicylic acid for the first time. Over the next 50 years, other chemists, mostly of the German company Bayer , established the chemical structure and devised more efficient production methods. Felix Hoffmann (or perhaps Arthur Eichengrün ) of Bayer was the first to produce acetylsalicylic acid in a pure, stable form in 1897. By 1899, Bayer had dubbed this drug Aspirin and was selling it globally.
+
+Aspirin is available without medical prescription as a proprietary or generic medication in most jurisdictions. It is one of the most widely used medications globally, with an estimated 40,000 tonnes (44,000 tons) (50 to 120 billion pills ) consumed each year, and is on the World Health Organization's List of Essential Medicines . In 2023, it was the 46th most commonly prescribed medication in the United States, with more than 14 million prescriptions.
+
+
+INFOBOX
+=======
+Acetylsalicylic acid
+pure acetylsalicylic acid
+Clinical data
+Pronunciation
+/
+ə
+ˌ
+s
+iː
+t
+əl
+ˌ
+s
+æ
+l
+ɪ
+ˈ
+s
+ɪ
+l
+ɪ
+k
+/
+Trade names
+Bayer Aspirin, others
+Other names
+2-acetoxybenzoic acid
+2-(acetyloxy)benzoic acid
+2-(ethanoyloxy)benzoic acid
+o
+-acetylsalicylic acid
+acetylsalicylic acid
+acetyl salicylate
+salicylic acid acetate
+o-carboxyphenyl acetate
+monoacetic acid ester of salicylic acid
+AHFS
+/
+Drugs.com
+Monograph
+MedlinePlus
+a682878
+License data
+US
+DailyMed
+:
+Acetylsalicylic acid
+Pregnancy
+category
+AU
+:
+C
+Routes of
+administration
+Oral
+,
+rectal
+Drug class
+Nonsteroidal anti-inflammatory drug
+(NSAID)
+ATC code
+A01AD05
+(
+WHO
+)
+B01AC06
+(
+WHO
+),
+N02BA01
+(
+WHO
+)
+Legal status
+Legal status
+AU
+:
+S6
+(Poison) /
+Schedule 5; Schedule 4; Schedule 2 Appendix F, clause 4
+CA
+:
+OTC
+UK
+:
+General sales list
+(GSL, OTC)
+US
+:
+OTC
+/ Rx-only
+SE: OTC
+Pharmacokinetic
+data
+Bioavailability
+80–100%
+Protein binding
+80–90%
+Metabolism
+Liver
+(
+CYP2C19
+and possibly
+CYP3A
+), some is also hydrolysed to salicylate in the gut wall.
+Elimination
+half-life
+Dose-dependent; 2–3
+h for low doses (100
+mg or less), 15–30
+h for larger doses.
+Excretion
+Urine (80–100%), sweat, saliva, feces
+Identifiers
+IUPAC name
+2-acetyloxybenzoic acid
+CAS Number
+50-78-2
+PubChem
+CID
+2244
+IUPHAR/BPS
+4139
+DrugBank
+DB00945
+ChemSpider
+2157
+UNII
+R16CO5Y76E
+KEGG
+D00109
+C01405
+ChEBI
+CHEBI:15365
+ChEMBL
+ChEMBL25
+PDB ligand
+AIN (
+PDBe
+,
+RCSB PDB
+)
+CompTox Dashboard
+(
+EPA
+)
+DTXSID5020108
+ECHA InfoCard
+100.000.059
+Chemical and physical data
+Formula
+C
+9
+H
+8
+O
+4
+Molar mass
+180.159
+g·mol
+3D model (
+JSmol
+)
+Interactive image
+Density
+1.40 g/cm
+Melting point
+135 °C (275 °F)
+Boiling point
+140 °C (284 °F) (decomposes)
+Solubility in water
+3
+g/L
+SMILES
+O=C(C)Oc1ccccc1C(=O)O
+InChI
+InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)
+Key:BSYNRYMUTXBXSQ-UHFFFAOYSA-N

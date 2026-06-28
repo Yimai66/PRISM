@@ -1,0 +1,42 @@
+{
+  "id": "T2-12",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the sewing machine",
+  "clean_entity": "sewing machine",
+  "question": "Who invented the sewing machine?",
+  "primary_type": "B (Attribution)",
+  "notes": "Singer vs Howe vs others",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/sewing_machine",
+      "status": "scraped",
+      "lead_chars": 1032,
+      "lead_sentences": 8,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%AB%E7%B4%89%E6%A9%9F",
+      "status": "scraped",
+      "lead_chars": 456,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%AC%EB%B4%89%ED%8B%80",
+      "status": "scraped",
+      "lead_chars": 457,
+      "lead_sentences": 7,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0",
+      "status": "scraped",
+      "lead_chars": 1883,
+      "lead_sentences": 15,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

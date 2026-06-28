@@ -1,0 +1,42 @@
+{
+  "id": "T2-03",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "television",
+  "clean_entity": "television",
+  "question": "Who invented television?",
+  "primary_type": "B (Attribution)",
+  "notes": "Baird vs Farnsworth vs Zworykin",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/television",
+      "status": "scraped",
+      "lead_chars": 3918,
+      "lead_sentences": 30,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%94%B5%E8%A7%86",
+      "status": "scraped",
+      "lead_chars": 351,
+      "lead_sentences": 6,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%85%94%EB%A0%88%EB%B9%84%EC%A0%84",
+      "status": "scraped",
+      "lead_chars": 452,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5",
+      "status": "scraped",
+      "lead_chars": 2140,
+      "lead_sentences": 20,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

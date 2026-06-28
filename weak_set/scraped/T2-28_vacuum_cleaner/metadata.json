@@ -1,0 +1,42 @@
+{
+  "id": "T2-28",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the vacuum cleaner",
+  "clean_entity": "vacuum cleaner",
+  "question": "Who invented the vacuum cleaner?",
+  "primary_type": "B (Attribution)",
+  "notes": "Booth vs Spangler",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/vacuum_cleaner",
+      "status": "scraped",
+      "lead_chars": 545,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B8%E5%A1%B5%E6%A9%9F",
+      "status": "scraped",
+      "lead_chars": 576,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A7%84%EA%B3%B5_%EC%B2%AD%EC%86%8C%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 425,
+      "lead_sentences": 7,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81",
+      "status": "scraped",
+      "lead_chars": 869,
+      "lead_sentences": 8,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

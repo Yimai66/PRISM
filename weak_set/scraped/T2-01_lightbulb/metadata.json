@@ -1,0 +1,44 @@
+{
+  "id": "T2-01",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the lightbulb",
+  "clean_entity": "lightbulb",
+  "question": "Who invented the lightbulb?",
+  "primary_type": "B (Attribution)",
+  "notes": "Edison vs Swan",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/lightbulb",
+      "status": "scraped",
+      "lead_chars": 1363,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%85%89%E6%BA%90",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B4%91_(%EC%A0%84%EC%9E%90_%EB%B6%80%ED%92%88)",
+      "status": "scraped",
+      "lead_chars": 626,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BE%D1%81%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5",
+      "status": "scraped",
+      "lead_chars": 2317,
+      "lead_sentences": 14,
+      "has_infobox": false
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "zh: lead_too_short_0_sentences_0_chars"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T3-13",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "the Northwest Passage",
+  "clean_entity": "Northwest Passage",
+  "question": "Who discovered the Northwest Passage?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "multiple claims, McClure vs Amundsen",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Northwest_Passage",
+      "status": "scraped",
+      "lead_chars": 2257,
+      "lead_sentences": 16,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8C%97%E8%88%AA%E9%81%93",
+      "status": "scraped",
+      "lead_chars": 264,
+      "lead_sentences": 5,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%B6%81%EC%84%9C%ED%95%AD%EB%A1%9C",
+      "status": "scraped",
+      "lead_chars": 462,
+      "lead_sentences": 8,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE-%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4",
+      "status": "scraped",
+      "lead_chars": 920,
+      "lead_sentences": 7,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

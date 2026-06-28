@@ -1,0 +1,42 @@
+{
+  "id": "T5-09",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Reformation",
+  "clean_entity": "Reformation",
+  "question": "What caused the Reformation?",
+  "primary_type": "D (Framing)",
+  "notes": "religious vs political vs economic framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Reformation",
+      "status": "scraped",
+      "lead_chars": 2697,
+      "lead_sentences": 16,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%97%E6%95%99%E6%94%B9%E9%9D%A9",
+      "status": "scraped",
+      "lead_chars": 826,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A2%85%EA%B5%90_%EA%B0%9C%ED%98%81",
+      "status": "scraped",
+      "lead_chars": 925,
+      "lead_sentences": 7,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 1283,
+      "lead_sentences": 8,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

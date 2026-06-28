@@ -1,0 +1,42 @@
+{
+  "id": "T4-30",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Gilded Age",
+  "clean_entity": "Gilded Age",
+  "question": "When did the Gilded Age start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "US-specific framing, dates vary",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Gilded_Age",
+      "status": "scraped",
+      "lead_chars": 4388,
+      "lead_sentences": 32,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%80%E9%87%91%E6%97%B6%E4%BB%A3",
+      "status": "scraped",
+      "lead_chars": 441,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%EA%B8%88_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 704,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B7%D0%BE%D0%BB%D0%BE%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%BA",
+      "status": "scraped",
+      "lead_chars": 2182,
+      "lead_sentences": 17,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

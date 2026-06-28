@@ -1,0 +1,42 @@
+{
+  "id": "T1-22",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Mongol invasions of Japan",
+  "clean_entity": "Mongol invasions of Japan",
+  "question": "Who won the Mongol invasions of Japan?",
+  "primary_type": "C (Outcome)",
+  "notes": "settled but framings differ",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+      "status": "scraped",
+      "lead_chars": 958,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%97%A5%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 228,
+      "lead_sentences": 4,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9B%90%EB%82%98%EB%9D%BC%EC%9D%98_%EC%9D%BC%EB%B3%B8_%EC%9B%90%EC%A0%95",
+      "status": "scraped",
+      "lead_chars": 899,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5_%D0%B2%D1%82%D0%BE%D1%80%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8E",
+      "status": "scraped",
+      "lead_chars": 317,
+      "lead_sentences": 3,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

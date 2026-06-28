@@ -1,0 +1,42 @@
+{
+  "id": "T3-15",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "the Olmec civilization",
+  "clean_entity": "Olmec civilization",
+  "question": "Who discovered the Olmec civilization?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Western archaeology framing",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Olmec_civilization",
+      "status": "scraped",
+      "lead_chars": 1335,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%B0%94%E6%A2%85%E5%85%8B%E6%96%87%E6%98%8E",
+      "status": "scraped",
+      "lead_chars": 373,
+      "lead_sentences": 8,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%98%AC%EB%A9%95",
+      "status": "scraped",
+      "lead_chars": 106,
+      "lead_sentences": 2,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D1%8C%D0%BC%D0%B5%D0%BA%D0%B8",
+      "status": "scraped",
+      "lead_chars": 1344,
+      "lead_sentences": 17,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

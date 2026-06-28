@@ -1,0 +1,42 @@
+{
+  "id": "T2-17",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the compass",
+  "clean_entity": "compass",
+  "question": "Who invented the compass?",
+  "primary_type": "B (Attribution)",
+  "notes": "Chinese vs European framing",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/compass",
+      "status": "scraped",
+      "lead_chars": 2679,
+      "lead_sentences": 20,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%8C%87%E5%8D%97%E9%92%88",
+      "status": "scraped",
+      "lead_chars": 204,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%B9%A8%EB%B0%98",
+      "status": "scraped",
+      "lead_chars": 454,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D1%81",
+      "status": "scraped",
+      "lead_chars": 2474,
+      "lead_sentences": 23,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

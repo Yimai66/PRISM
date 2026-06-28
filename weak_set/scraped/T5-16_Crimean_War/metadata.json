@@ -1,0 +1,42 @@
+{
+  "id": "T5-16",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Crimean War",
+  "clean_entity": "Crimean War",
+  "question": "What caused the Crimean War?",
+  "primary_type": "D (Framing)",
+  "notes": "Russian vs Ottoman vs UK/French framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Crimean_War",
+      "status": "scraped",
+      "lead_chars": 3514,
+      "lead_sentences": 28,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E9%87%8C%E7%B1%B3%E4%BA%9A%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 551,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%BC_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 737,
+      "lead_sentences": 11,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+      "status": "scraped",
+      "lead_chars": 1221,
+      "lead_sentences": 30,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

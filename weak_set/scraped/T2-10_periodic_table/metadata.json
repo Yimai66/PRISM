@@ -1,0 +1,42 @@
+{
+  "id": "T2-10",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the periodic table",
+  "clean_entity": "periodic table",
+  "question": "Who invented the periodic table?",
+  "primary_type": "B (Attribution)",
+  "notes": "Mendeleev vs Meyer",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/periodic_table",
+      "status": "scraped",
+      "lead_chars": 2725,
+      "lead_sentences": 25,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E7%B4%A0%E5%91%A8%E6%9C%9F%E8%A1%A8",
+      "status": "scraped",
+      "lead_chars": 704,
+      "lead_sentences": 15,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A3%BC%EA%B8%B0%EC%9C%A8%ED%91%9C",
+      "status": "scraped",
+      "lead_chars": 850,
+      "lead_sentences": 15,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D1%85%D0%B8%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+      "status": "scraped",
+      "lead_chars": 2325,
+      "lead_sentences": 15,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

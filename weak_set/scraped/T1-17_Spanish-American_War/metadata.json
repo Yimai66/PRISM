@@ -1,0 +1,42 @@
+{
+  "id": "T1-17",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Spanish-American War",
+  "clean_entity": "Spanish-American War",
+  "question": "Who won the Spanish-American War?",
+  "primary_type": "C (Outcome)",
+  "notes": "US vs Spain vs Cuba/Philippines",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Spanish-American_War",
+      "status": "scraped",
+      "lead_chars": 3566,
+      "lead_sentences": 54,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E8%A5%BF%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 115,
+      "lead_sentences": 2,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD-%EC%8A%A4%ED%8E%98%EC%9D%B8_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 345,
+      "lead_sentences": 5,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%BE-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+      "status": "scraped",
+      "lead_chars": 291,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

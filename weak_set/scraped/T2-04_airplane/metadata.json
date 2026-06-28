@@ -1,0 +1,42 @@
+{
+  "id": "T2-04",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the airplane",
+  "clean_entity": "airplane",
+  "question": "Who invented the airplane?",
+  "primary_type": "B (Attribution)",
+  "notes": "Wright Brothers vs Santos-Dumont",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/airplane",
+      "status": "scraped",
+      "lead_chars": 1733,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%A3%9B%E6%A9%9F",
+      "status": "scraped",
+      "lead_chars": 434,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%96%89%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 1305,
+      "lead_sentences": 24,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D0%BB%D1%91%D1%82",
+      "status": "scraped",
+      "lead_chars": 1047,
+      "lead_sentences": 13,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T5-25",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Long March",
+  "clean_entity": "Long March",
+  "question": "What caused the Long March?",
+  "primary_type": "D (Framing)",
+  "notes": "Chinese Communist vs Western framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Long_March",
+      "status": "scraped",
+      "lead_chars": 2403,
+      "lead_sentences": 20,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%BE%81",
+      "status": "scraped",
+      "lead_chars": 729,
+      "lead_sentences": 11,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%A0%95",
+      "status": "scraped",
+      "lead_chars": 375,
+      "lead_sentences": 5,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D1%85%D0%BE%D0%B4_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85_%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%BE%D0%B2",
+      "status": "scraped",
+      "lead_chars": 643,
+      "lead_sentences": 8,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

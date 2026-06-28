@@ -1,0 +1,42 @@
+{
+  "id": "T2-27",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the microwave oven",
+  "clean_entity": "microwave oven",
+  "question": "Who invented the microwave oven?",
+  "primary_type": "B (Attribution)",
+  "notes": "Spencer vs others",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/microwave_oven",
+      "status": "scraped",
+      "lead_chars": 2555,
+      "lead_sentences": 18,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%B3%A2%E7%82%89",
+      "status": "scraped",
+      "lead_chars": 94,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%9E%90%EB%A0%88%EC%9D%B8%EC%A7%80",
+      "status": "scraped",
+      "lead_chars": 552,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B5%D1%87%D1%8C",
+      "status": "scraped",
+      "lead_chars": 988,
+      "lead_sentences": 9,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

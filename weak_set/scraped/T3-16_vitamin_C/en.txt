@@ -1,0 +1,200 @@
+LEAD PARAGRAPHS
+================
+Vitamin C or ascorbate is a water-soluble vitamin found in citrus and other fruits, berries and vegetables. It is found as a form of ascorbic acid . It is an essential nutrient involved in the repair of tissue , the formation of collagen , and the enzymatic production of certain neurotransmitters . It is required for the functioning of several enzymes and is important for immune system function. It also functions as an antioxidant . Most animals are able to synthesize their own vitamin C . However, higher primates (including humans), most bats , guinea pigs , some fish species, and some bird species must acquire it from dietary sources because a gene for a synthesis enzyme has mutations that render it dysfunctional; humans obtain this vitamin from those fruits and vegetables.
+
+It is also a generic prescription medication and in some countries is sold as a non-prescription dietary supplement . As a therapy, it is used to prevent and treat scurvy , a disease caused by vitamin C deficiency. Vitamin C may be taken by mouth or by intramuscular, subcutaneous or intravenous injection. Various health claims exist on the supposition that moderate vitamin C deficiency increases disease risk, such as for the common cold , cancer or COVID-19 . There are also claims of benefits from vitamin C supplementation in excess of the recommended dietary intake for people who are not considered vitamin C deficient. Vitamin C is generally well tolerated. Large doses may cause gastrointestinal discomfort , headache, trouble sleeping, and flushing of the skin . The United States National Academy of Medicine recommends against consuming large amounts.
+
+Vitamin C was discovered in 1912, isolated in 1928, and in 1933, was the first vitamin to be chemically produced . Partly for its discovery, Albert Szent-Györgyi was awarded the 1937 Nobel Prize in Physiology or Medicine .
+
+
+INFOBOX
+=======
+Ascorbic acid
+Clinical data
+Pronunciation
+/
+ə
+ˈ
+s
+k
+ɔːr
+b
+ɪ
+k
+/
+,
+/
+ə
+ˈ
+s
+k
+ɔːr
+b
+eɪ
+t
+,
+-
+b
+ɪ
+t
+/
+Trade names
+Ascor, Cecon, Cevalin, others
+Other names
+l
+-ascorbic acid, ascorbic acid, ascorbate
+AHFS
+/
+Drugs.com
+Monograph
+MedlinePlus
+a682583
+License data
+US
+DailyMed
+:
+Ascorbic acid
+Routes of
+administration
+By mouth
+,
+intramuscular
+,
+intravenous
+,
+subcutaneous
+ATC code
+A11GA01
+(
+WHO
+)
+A11GB01
+(
+WHO
+)
+G01AD03
+(
+WHO
+)
+S01XA15
+(
+WHO
+)
+Legal status
+Legal status
+AU
+:
+Unscheduled
+UK
+:
+POM
+(Prescription only) / GSL
+US
+:
+℞-only
+/ OTC/ Dietary Supplement
+Pharmacokinetic
+data
+Bioavailability
+Rapid, diminishes as dose increases
+Protein binding
+Negligible
+Elimination
+half-life
+Varies according to plasma concentration
+Excretion
+Kidney
+Identifiers
+IUPAC name
+l
+-
+threo
+-Hex-2-enono-1,4-lactone
+or
+(
+R
+)-3,4-Dihydroxy-5-((
+S
+)- 1,2-dihydroxyethyl)furan-2(5
+H
+)-one
+CAS Number
+50-81-7
+as salt:
+134-03-2
+PubChem
+CID
+54670067
+as salt:
+23667548
+IUPHAR/BPS
+4781
+DrugBank
+DB00126
+as salt:
+DB14482
+ChemSpider
+10189562
+as salt:
+16736174
+UNII
+PQ6CK8PD0R
+as salt:
+S033EH8359
+KEGG
+D00018
+as salt:
+D05853
+ChEBI
+CHEBI:29073
+as salt:
+CHEBI:113451
+ChEMBL
+ChEMBL196
+as salt:
+ChEMBL591665
+NIAID ChemDB
+002072
+PDB ligand
+ASC (
+PDBe
+,
+RCSB PDB
+)
+E number
+E300
+(antioxidants, ...)
+CompTox Dashboard
+(
+EPA
+)
+DTXSID5020106
+ECHA InfoCard
+100.000.061
+Chemical and physical data
+Formula
+C
+6
+H
+8
+O
+6
+Molar mass
+176.124
+g·mol
+3D model (
+JSmol
+)
+Interactive image
+Density
+1.694 g/cm
+Melting point
+190 to 192 °C (374 to 378 °F)
+Boiling point
+552.7 °C (1,026.9 °F)
+SMILES
+OC[C@H](O)[C@H]1OC(=O)C(O)=C1O
+InChI
+InChI=1S/C6H8O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-10H,1H2/t2-,5+/m0/s1
+Key:CIWBSHSKHKDKBQ-JLAZNSOCSA-N
+(verify)

@@ -1,0 +1,366 @@
+LEAD PARAGRAPHS
+================
+Oxygen is a chemical element ; it has the symbol O and its atomic number is 8. It is a member of the chalcogen group in the periodic table . It is highly reactive , a nonmetal , and a potent oxidizing agent that readily forms oxides with most elements as well as with other compounds . Oxygen is the most abundant element in Earth's crust , making up almost half of the Earth's crust in the form of various oxides such as water , carbon dioxide , iron oxides , and silicates . It is also the third-most abundant element in the universe after hydrogen and helium .
+
+At standard temperature and pressure , two oxygen atoms will bind covalently to form dioxygen , a colorless and odorless diatomic gas with the chemical formula O 2 . Dioxygen gas currently constitutes approximately 20.95% molar fraction of the Earth's atmosphere , though this has changed considerably over long periods of time in Earth's history . The much rarer allotrope of oxygen , ozone ( O 3 ), strongly absorbs the UVB and UVC wavelengths and forms a protective ozone layer at the lower stratosphere , which shields the biosphere from ionizing ultraviolet radiation . However, ozone present at the surface is a corrosive byproduct of smog and thus an air pollutant .
+
+All eukaryotic organisms, including plants, animals, fungi, algae, and most protists , need oxygen for cellular respiration , a process that extracts chemical energy by the reaction of oxygen with organic molecules derived from food and releases carbon dioxide as a waste product. 
+Many major classes of organic molecules in living organisms contain oxygen atoms, such as proteins , nucleic acids , carbohydrates , and fats , as do the major constituent inorganic compounds of animal shells, teeth, and bone. Most of the mass of living organisms is oxygen as a component of water, the major constituent of lifeforms. Oxygen in Earth's atmosphere is produced by biotic photosynthesis , in which photon energy in sunlight is captured by chlorophyll to split water molecules and then react with carbon dioxide to produce carbohydrates, with oxygen released as a byproduct . Oxygen is too chemically reactive to remain a free element in air without being continuously replenished by the photosynthetic activities of autotrophs such as cyanobacteria , chloroplast -bearing algae, and land plants.
+
+Oxygen was isolated by Michael Sendivogius before 1604, but it is commonly believed that the element was discovered independently by Carl Wilhelm Scheele , in Uppsala , in 1773 or earlier, and Joseph Priestley in Wiltshire , in 1774. Priority is often given for Priestley because his work was published first. Priestley, however, called oxygen "dephlogisticated air", and did not recognize it as a chemical element. In 1777, Antoine Lavoisier first recognized oxygen as a chemical element and correctly characterized the role it plays in combustion.
+
+Common industrial uses of oxygen include production of steel, plastics and textiles, brazing, welding and cutting of steels and other metals, rocket propellant , oxygen therapy , and life-support systems in aircraft, submarines, spaceflight, and diving.
+
+
+INFOBOX
+=======
+Oxygen,
+8
+O
+Liquid oxygen (O
+2
+at
+below −183 °C
+)
+Oxygen
+Allotropes
+O
+2
+, O
+3
+(
+ozone
+) and more (see
+Allotropes of oxygen
+)
+Appearance
+gas: colorless
+liquid and solid: pale blue
+Standard atomic weight
+A
+r
+°(O)
+[
+15.999
+03
+,
+15.999
+77
+]
+15.999
+±
+0.001
+(
+abridged
+)
+Oxygen in the
+periodic table
+Hydrogen
+Helium
+Lithium
+Beryllium
+Boron
+Carbon
+Nitrogen
+Oxygen
+Fluorine
+Neon
+Sodium
+Magnesium
+Aluminium
+Silicon
+Phosphorus
+Sulfur
+Chlorine
+Argon
+Potassium
+Calcium
+Scandium
+Titanium
+Vanadium
+Chromium
+Manganese
+Iron
+Cobalt
+Nickel
+Copper
+Zinc
+Gallium
+Germanium
+Arsenic
+Selenium
+Bromine
+Krypton
+Rubidium
+Strontium
+Yttrium
+Zirconium
+Niobium
+Molybdenum
+Technetium
+Ruthenium
+Rhodium
+Palladium
+Silver
+Cadmium
+Indium
+Tin
+Antimony
+Tellurium
+Iodine
+Xenon
+Caesium
+Barium
+Lanthanum
+Cerium
+Praseodymium
+Neodymium
+Promethium
+Samarium
+Europium
+Gadolinium
+Terbium
+Dysprosium
+Holmium
+Erbium
+Thulium
+Ytterbium
+Lutetium
+Hafnium
+Tantalum
+Tungsten
+Rhenium
+Osmium
+Iridium
+Platinum
+Gold
+Mercury (element)
+Thallium
+Lead
+Bismuth
+Polonium
+Astatine
+Radon
+Francium
+Radium
+Actinium
+Thorium
+Protactinium
+Uranium
+Neptunium
+Plutonium
+Americium
+Curium
+Berkelium
+Californium
+Einsteinium
+Fermium
+Mendelevium
+Nobelium
+Lawrencium
+Rutherfordium
+Dubnium
+Seaborgium
+Bohrium
+Hassium
+Meitnerium
+Darmstadtium
+Roentgenium
+Copernicium
+Nihonium
+Flerovium
+Moscovium
+Livermorium
+Tennessine
+Oganesson
+–
+↑
+O
+↓
+S
+nitrogen
+←
+oxygen
+→
+fluorine
+Atomic number
+(
+Z
+)
+8
+Group
+group 16 (chalcogens)
+Period
+period 2
+Block
+p-block
+Electron configuration
+[
+He
+] 2s
+2p
+Electrons per shell
+2, 6
+Physical properties
+Phase
+at
+STP
+gas
+Melting point
+(O
+2
+) 54.36
+K
+​(−218.79 °C, ​−361.82 °F)
+Boiling point
+(O
+2
+) 90.188 K ​(−182.962 °C, ​−297.332 °F)
+Density
+(at
+STP
+)
+1.429 g/L
+when liquid (at
+b.p.
+)
+1.141 g/cm
+Triple point
+54.361 K, ​0.1463 kPa
+Critical point
+154.581 K, 5.043 MPa
+Heat of fusion
+(O
+2
+) 0.444
+kJ/mol
+Heat of vaporization
+(O
+2
+) 6.82 kJ/mol
+Molar heat capacity
+14.689 J/(mol·K) (O)
+29.378 J/(mol·K) (O
+2
+)
+Specific heat capacity
+918.12 J/(kg·K) (O)
+Vapor pressure
+P
+(Pa)
+1
+10
+100
+1 k
+10 k
+100 k
+at
+T
+(K)
+61
+73
+90
+Atomic properties
+Oxidation states
+common:
+−2
+−1,
+0, +1,
++2
+Electronegativity
+Pauling scale: 3.44
+Ionization energies
+1st: 1313.9 kJ/mol
+2nd: 3388.3 kJ/mol
+3rd: 5300.5 kJ/mol
+(
+more
+)
+Covalent radius
+66±2
+pm
+Van der Waals radius
+152 pm
+Spectral lines
+of oxygen
+Other properties
+Natural occurrence
+primordial
+Crystal structure
+​
+cubic
+(
+cP16
+)
+Lattice constant
+a
+= 678.28 pm (at
+t.p.
+)
+Thermal conductivity
+26.58×10
+W/(m⋅K)
+Magnetic ordering
+paramagnetic
+Molar magnetic susceptibility
++3
+449
+.0
+×
+10
+cm
+/mol (293 K)
+Speed of sound
+330
+m/s
+(gas, at 27 °C)
+CAS Number
+7782-44-7
+History
+Naming
+from the Greek
+ὀξύς
+(acid, literally 'sharp', from the taste of acids) and
+-γενής
+(producer)
+Discovery
+Michael Sendivogius
+Carl Wilhelm Scheele
+(1604, 1771)
+Named by
+Antoine Lavoisier
+(1777)
+Isotopes of oxygen
+v
+e
+Main isotopes
+Decay
+Isotope
+abun­dance
+half-life
+(
+t
+1/2
+)
+mode
+pro­duct
+O
+trace
+122.27 s
+β
+N
+O
+99.8%
+stable
+O
+0.0384%
+stable
+O
+0.205%
+stable
+Category: Oxygen
+view
+talk
+edit
+|
+references

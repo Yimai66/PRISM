@@ -1,0 +1,44 @@
+{
+  "id": "T3-28",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "cells",
+  "clean_entity": "cells",
+  "question": "Who discovered cells?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Hooke vs Leeuwenhoek vs Schleiden/Schwann",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/cells",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": null,
+      "status": "missing_language_link"
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%85%80",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/Cell",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: lead_too_short_0_sentences_0_chars",
+    "zh: missing_language_link",
+    "ko: lead_too_short_0_sentences_0_chars",
+    "ru: lead_too_short_0_sentences_0_chars"
+  ]
+}

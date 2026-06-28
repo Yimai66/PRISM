@@ -1,0 +1,42 @@
+{
+  "id": "T4-08",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Iron Age",
+  "clean_entity": "Iron Age",
+  "question": "When did the Iron Age start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "regional onset varies",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Iron_Age",
+      "status": "scraped",
+      "lead_chars": 3169,
+      "lead_sentences": 30,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%93%81%E5%99%A8%E6%97%B6%E4%BB%A3",
+      "status": "scraped",
+      "lead_chars": 579,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B2%A0%EA%B8%B0_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 532,
+      "lead_sentences": 6,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%BA",
+      "status": "scraped",
+      "lead_chars": 1157,
+      "lead_sentences": 8,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

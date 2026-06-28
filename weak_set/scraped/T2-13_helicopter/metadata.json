@@ -1,0 +1,42 @@
+{
+  "id": "T2-13",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the helicopter",
+  "clean_entity": "helicopter",
+  "question": "Who invented the helicopter?",
+  "primary_type": "B (Attribution)",
+  "notes": "Sikorsky vs Cornu vs others",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/helicopter",
+      "status": "scraped",
+      "lead_chars": 1867,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E5%8D%87%E6%A9%9F",
+      "status": "scraped",
+      "lead_chars": 183,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%BD%A5%ED%84%B0",
+      "status": "scraped",
+      "lead_chars": 931,
+      "lead_sentences": 13,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D1%82%D0%BE%D0%BB%D1%91%D1%82",
+      "status": "scraped",
+      "lead_chars": 1156,
+      "lead_sentences": 20,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

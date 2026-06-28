@@ -1,0 +1,42 @@
+{
+  "id": "T5-10",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Black Death",
+  "clean_entity": "Black Death",
+  "question": "What caused the Black Death?",
+  "primary_type": "D (Framing)",
+  "notes": "biological consensus but social framings vary",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Black_Death",
+      "status": "scraped",
+      "lead_chars": 1236,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%AD%BB%E7%97%85",
+      "status": "scraped",
+      "lead_chars": 1449,
+      "lead_sentences": 24,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%9D%91%EC%82%AC%EB%B3%91",
+      "status": "scraped",
+      "lead_chars": 697,
+      "lead_sentences": 8,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A7%D1%91%D1%80%D0%BD%D0%B0%D1%8F_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%8C",
+      "status": "scraped",
+      "lead_chars": 898,
+      "lead_sentences": 8,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

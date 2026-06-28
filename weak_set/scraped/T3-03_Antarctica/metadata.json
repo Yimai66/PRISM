@@ -1,0 +1,42 @@
+{
+  "id": "T3-03",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "Antarctica",
+  "clean_entity": "Antarctica",
+  "question": "Who discovered Antarctica?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Bellingshausen vs Bransfield vs Smith",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Antarctica",
+      "status": "scraped",
+      "lead_chars": 2798,
+      "lead_sentences": 26,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%9E%81%E6%B4%B2",
+      "status": "scraped",
+      "lead_chars": 959,
+      "lead_sentences": 19,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B7%B9",
+      "status": "scraped",
+      "lead_chars": 976,
+      "lead_sentences": 16,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D0%B4%D0%B0",
+      "status": "scraped",
+      "lead_chars": 949,
+      "lead_sentences": 14,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

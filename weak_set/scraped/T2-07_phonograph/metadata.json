@@ -1,0 +1,42 @@
+{
+  "id": "T2-07",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the phonograph",
+  "clean_entity": "phonograph",
+  "question": "Who invented the phonograph?",
+  "primary_type": "B (Attribution)",
+  "notes": "Edison vs Cros",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/phonograph",
+      "status": "scraped",
+      "lead_chars": 2012,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%95%99%E8%81%B2%E6%A9%9F",
+      "status": "scraped",
+      "lead_chars": 491,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B6%95%EC%9D%8C%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 782,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84",
+      "status": "scraped",
+      "lead_chars": 842,
+      "lead_sentences": 9,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

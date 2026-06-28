@@ -1,0 +1,42 @@
+{
+  "id": "T2-08",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "anesthesia",
+  "clean_entity": "anesthesia",
+  "question": "Who invented anesthesia?",
+  "primary_type": "B (Attribution)",
+  "notes": "Morton vs Long vs Wells",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/anesthesia",
+      "status": "scraped",
+      "lead_chars": 1796,
+      "lead_sentences": 10,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%BB%E9%86%89",
+      "status": "scraped",
+      "lead_chars": 112,
+      "lead_sentences": 2,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%B7%A8",
+      "status": "scraped",
+      "lead_chars": 453,
+      "lead_sentences": 10,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B5%D1%81%D1%82%D0%B5%D0%B7%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 388,
+      "lead_sentences": 2,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

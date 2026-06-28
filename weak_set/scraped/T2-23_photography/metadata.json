@@ -1,0 +1,42 @@
+{
+  "id": "T2-23",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "photography",
+  "clean_entity": "photography",
+  "question": "Who invented photography?",
+  "primary_type": "B (Attribution)",
+  "notes": "Daguerre vs Niepce vs Talbot",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/photography",
+      "status": "scraped",
+      "lead_chars": 1780,
+      "lead_sentences": 11,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%91%84%E5%BD%B1",
+      "status": "scraped",
+      "lead_chars": 153,
+      "lead_sentences": 4,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%A7%84%EC%88%A0",
+      "status": "scraped",
+      "lead_chars": 391,
+      "lead_sentences": 5,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 1504,
+      "lead_sentences": 10,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T1-29",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Yugoslav Wars",
+  "clean_entity": "Yugoslav Wars",
+  "question": "Who won the Yugoslav Wars?",
+  "primary_type": "C (Outcome)",
+  "notes": "multiple national framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Yugoslav_Wars",
+      "status": "scraped",
+      "lead_chars": 2977,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%96%AF%E6%8B%89%E5%A4%AB%E5%85%A7%E6%88%B0",
+      "status": "scraped",
+      "lead_chars": 948,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B3%A0%EC%8A%AC%EB%9D%BC%EB%B9%84%EC%95%84_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 1405,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%AE%D0%B3%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B",
+      "status": "scraped",
+      "lead_chars": 980,
+      "lead_sentences": 4,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

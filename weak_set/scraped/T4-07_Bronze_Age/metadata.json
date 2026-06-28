@@ -1,0 +1,42 @@
+{
+  "id": "T4-07",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Bronze Age",
+  "clean_entity": "Bronze Age",
+  "question": "When did the Bronze Age start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "regional onset varies dramatically",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Bronze_Age",
+      "status": "scraped",
+      "lead_chars": 2383,
+      "lead_sentences": 15,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E9%93%9C%E6%97%B6%E4%BB%A3",
+      "status": "scraped",
+      "lead_chars": 392,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EB%8F%99%EA%B8%B0_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 769,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B2%D0%B5%D0%BA",
+      "status": "scraped",
+      "lead_chars": 772,
+      "lead_sentences": 1,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

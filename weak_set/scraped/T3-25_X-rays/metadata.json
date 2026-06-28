@@ -1,0 +1,42 @@
+{
+  "id": "T3-25",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "X-rays",
+  "clean_entity": "X-rays",
+  "question": "Who discovered X-rays?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Roentgen, but framing of priority differs",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/X-rays",
+      "status": "scraped",
+      "lead_chars": 1107,
+      "lead_sentences": 10,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/X%E5%B0%84%E7%BA%BF",
+      "status": "scraped",
+      "lead_chars": 266,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%97%91%EC%8A%A4%EC%84%A0",
+      "status": "scraped",
+      "lead_chars": 995,
+      "lead_sentences": 18,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D0%B8%D0%B7%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5",
+      "status": "scraped",
+      "lead_chars": 2938,
+      "lead_sentences": 15,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

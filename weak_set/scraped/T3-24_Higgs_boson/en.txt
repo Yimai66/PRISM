@@ -1,0 +1,119 @@
+LEAD PARAGRAPHS
+================
+The Higgs boson , sometimes called the Higgs particle , is an elementary particle in the Standard Model of particle physics produced by the quantum excitation of the Higgs field , one of the fields in particle physics theory. In the Standard Model, the Higgs particle is a massive scalar boson that couples to (interacts with) particles whose mass arises from their interactions with the Higgs field, has zero spin , even (positive) parity , no electric charge , and no color charge . It is also very unstable, decaying into other particles almost immediately upon generation.
+
+The Higgs field is a scalar field with two neutral and two electrically charged components that form a complex doublet of the weak isospin SU(2) symmetry. Its " sombrero potential " leads it to take a nonzero value everywhere (including otherwise empty space), which breaks the weak isospin symmetry of the electroweak interaction and, via the Higgs mechanism , gives a rest mass to all massive elementary particles of the Standard Model, including the Higgs boson itself. The existence of the Higgs field became the last unverified part of the Standard Model of particle physics, and for several decades was considered "the central problem in particle physics".
+
+Both the field and the boson are named after physicist Peter Higgs , who in 1964, along with five other scientists in three teams, proposed the Higgs mechanism , a way for some particles to acquire mass . All fundamental particles known at the time should be massless at very high energies, but fully explaining how some particles gain mass at lower energies had been extremely difficult. If these ideas were correct, a particle known as a scalar boson (with certain properties) should also exist. This particle was called the Higgs boson and could be used to test whether the Higgs field was the correct explanation.
+
+After a 40-year search , a subatomic particle with the expected properties was discovered in 2012 by the ATLAS and CMS experiments at the Large Hadron Collider (LHC) at CERN near Geneva , Switzerland. The new particle was subsequently confirmed to match the expected properties of a Higgs boson. Physicists from two of the three teams, Peter Higgs and François Englert , were awarded the Nobel Prize in Physics in 2013 for their theoretical predictions. Although Higgs's name has come to be associated with this theory, several researchers between about 1960 and 1972 independently developed different parts of it.
+
+In the media, the Higgs boson has often been called the " God particle " after the 1993 book The God Particle by Nobel Laureate Leon M. Lederman . The name has been criticised by physicists, including Peter Higgs.
+
+
+INFOBOX
+=======
+Higgs boson
+Candidate Higgs boson events from
+collisions
+between
+protons
+in the
+LHC
+. The top event in the
+CMS
+experiment shows a decay into two
+photons
+(dashed yellow lines and green towers). The lower event in the
+ATLAS
+experiment shows a decay into four
+muons
+(red tracks).
+Composition
+Elementary particle
+Statistics
+Bose–Einstein statistics
+Family
+Scalar boson
+Interactions
+Gravity
+,
+electroweak
+Symbol
+H
+Antiparticle
+Self
+Theorised
+R. Brout
+,
+F. Englert
+,
+P. Higgs
+,
+G. S. Guralnik
+,
+C. R. Hagen
+, and
+T. W. B. Kibble
+(1964)
+Discovered
+Large Hadron Collider
+(2011–2013)
+Mass
+125.11
+±
+0.11
+GeV/
+c
+Mean lifetime
+1.56
+×
+10
+s
+(predicted)
+1.2 ~
+4.6
+×
+10
+s
+(tentatively measured at 3.2 sigma (1 in 1000) significance)
+Decays into
+Bottom
+–antibottom pair (observed)
+Two
+W bosons
+(observed)
+Two
+gluons
+(predicted)
+Tau
+–antitau pair (observed)
+Two
+Z bosons
+(observed)
+Two
+photons
+(observed)
+Two
+leptons
+and a
+photon
+(Dalitz decay via
+virtual photon
+) (tentatively observed at sigma 3.2 (1 in 1,000) significance)
+Muon
+–antimuon pair (predicted)
+Various other decays (predicted)
+Electric charge
+0
+e
+Color charge
+No
+Spin
+0
+ħ
+‍
+Parity
++1
+C parity
++1

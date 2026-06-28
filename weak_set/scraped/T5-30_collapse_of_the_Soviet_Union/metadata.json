@@ -1,0 +1,42 @@
+{
+  "id": "T5-30",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the collapse of the Soviet Union",
+  "clean_entity": "collapse of the Soviet Union",
+  "question": "What caused the collapse of the Soviet Union?",
+  "primary_type": "D (Framing)",
+  "notes": "Russian vs Western vs national framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/collapse_of_the_Soviet_Union",
+      "status": "scraped",
+      "lead_chars": 4012,
+      "lead_sentences": 23,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%81%94%E8%A7%A3%E4%BD%93",
+      "status": "scraped",
+      "lead_chars": 393,
+      "lead_sentences": 3,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%86%8C%EB%A0%A8%EC%9D%98_%EB%B6%95%EA%B4%B4",
+      "status": "scraped",
+      "lead_chars": 737,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D0%BF%D0%B0%D0%B4_%D0%A1%D0%A1%D0%A1%D0%A0",
+      "status": "scraped",
+      "lead_chars": 2276,
+      "lead_sentences": 18,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

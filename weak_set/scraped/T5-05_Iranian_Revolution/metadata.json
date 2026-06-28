@@ -1,0 +1,44 @@
+{
+  "id": "T5-05",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Iranian Revolution",
+  "clean_entity": "Iranian Revolution",
+  "question": "What caused the Iranian Revolution?",
+  "primary_type": "D (Framing)",
+  "notes": "religious vs economic vs Cold War framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Iranian_Revolution",
+      "status": "scraped",
+      "lead_chars": 3825,
+      "lead_sentences": 25,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9C%97%E4%BC%8A%E6%96%AF%E8%98%AD%E9%9D%A9%E5%91%BD",
+      "status": "scraped",
+      "lead_chars": 741,
+      "lead_sentences": 10,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%9E%80_%ED%98%81%EB%AA%85",
+      "status": "scraped",
+      "lead_chars": 715,
+      "lead_sentences": 5,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 94,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "ru: lead_too_short_1_sentences_94_chars"
+  ]
+}

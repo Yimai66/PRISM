@@ -1,0 +1,42 @@
+{
+  "id": "T4-17",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Edo period",
+  "clean_entity": "Edo period",
+  "question": "When did the Edo period start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "Japanese dating 1603 vs 1600",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Edo_period",
+      "status": "scraped",
+      "lead_chars": 2275,
+      "lead_sentences": 15,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E6%88%B7%E6%97%B6%E4%BB%A3",
+      "status": "scraped",
+      "lead_chars": 739,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%8F%84_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 992,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B8%D0%BE%D0%B4_%D0%AD%D0%B4%D0%BE",
+      "status": "scraped",
+      "lead_chars": 1620,
+      "lead_sentences": 12,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

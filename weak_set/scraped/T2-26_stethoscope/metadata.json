@@ -1,0 +1,42 @@
+{
+  "id": "T2-26",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the stethoscope",
+  "clean_entity": "stethoscope",
+  "question": "Who invented the stethoscope?",
+  "primary_type": "B (Attribution)",
+  "notes": "Laennec, mostly settled but framing differs",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/stethoscope",
+      "status": "scraped",
+      "lead_chars": 752,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%81%BD%E8%A8%BA%E5%99%A8",
+      "status": "scraped",
+      "lead_chars": 303,
+      "lead_sentences": 9,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EC%A7%84%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 288,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D1%82%D0%BE%D1%81%D0%BA%D0%BE%D0%BF",
+      "status": "scraped",
+      "lead_chars": 1192,
+      "lead_sentences": 9,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

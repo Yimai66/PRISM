@@ -2,12 +2,7 @@
 
 ## Overview
 
-PRISM is a cross-language search engine built in the first half of the course. You type a
-question, it runs that question on Wikipedia in a few languages at once, shows the results in side
-by side columns, and an LLM looks at the columns and tries to label what kind of disagreement
-is between them. 
-
-The purpose of PRISM is not to produce one single final answer. Instead, it is designed to show how different language communities, source contexts, or national framings may answer the same question differently.
+PRISM's research aim is to make cross-language disagreement visible. A single search query can look settled in one language internet while another language edition foregrounds a different date, inventor, cause, outcome, or omission. For digital humanities and information science, this matters because language communities do not only translate facts, they often organize knowledge through different historical memories, attribution norms, and definitions.
 
 This repository contains the technical prototype and dataset-processing scripts for the PRISM group project.
 

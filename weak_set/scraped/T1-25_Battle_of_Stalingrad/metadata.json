@@ -1,0 +1,42 @@
+{
+  "id": "T1-25",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Battle of Stalingrad",
+  "clean_entity": "Battle of Stalingrad",
+  "question": "Who won the Battle of Stalingrad?",
+  "primary_type": "C (Outcome)",
+  "notes": "Soviet vs German",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+      "status": "scraped",
+      "lead_chars": 3328,
+      "lead_sentences": 22,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%A0%BC%E5%8B%92%E6%88%98%E5%BD%B9",
+      "status": "scraped",
+      "lead_chars": 853,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+      "status": "scraped",
+      "lead_chars": 1607,
+      "lead_sentences": 22,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BB%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0",
+      "status": "scraped",
+      "lead_chars": 844,
+      "lead_sentences": 31,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

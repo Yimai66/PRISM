@@ -1,0 +1,41 @@
+{
+  "id": "T2-22",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the battery",
+  "clean_entity": "battery",
+  "question": "Who invented the battery?",
+  "primary_type": "B (Attribution)",
+  "notes": "Volta vs earlier claims",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/battery",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/Battery",
+      "status": "scraped",
+      "lead_chars": 0,
+      "lead_sentences": 0,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": null,
+      "status": "missing_language_link"
+    },
+    "ru": {
+      "url": null,
+      "status": "missing_language_link"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: lead_too_short_0_sentences_0_chars",
+    "zh: lead_too_short_0_sentences_0_chars",
+    "ko: missing_language_link",
+    "ru: missing_language_link"
+  ]
+}

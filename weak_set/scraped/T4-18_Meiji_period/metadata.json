@@ -1,0 +1,42 @@
+{
+  "id": "T4-18",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Meiji period",
+  "clean_entity": "Meiji period",
+  "question": "When did the Meiji period start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "1868 start",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Meiji_period",
+      "status": "scraped",
+      "lead_chars": 1370,
+      "lead_sentences": 7,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%B2%BB",
+      "status": "scraped",
+      "lead_chars": 193,
+      "lead_sentences": 4,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%8B%9C%EB%8C%80",
+      "status": "scraped",
+      "lead_chars": 509,
+      "lead_sentences": 8,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9C%D1%8D%D0%B9%D0%B4%D0%B7%D0%B8",
+      "status": "scraped",
+      "lead_chars": 1010,
+      "lead_sentences": 7,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

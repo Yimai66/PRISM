@@ -1,0 +1,42 @@
+{
+  "id": "T1-21",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Punic Wars",
+  "clean_entity": "Punic Wars",
+  "question": "Who won the Punic Wars?",
+  "primary_type": "C (Outcome)",
+  "notes": "Rome vs Carthage in modern accounts",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Punic_Wars",
+      "status": "scraped",
+      "lead_chars": 2639,
+      "lead_sentences": 21,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%8C%BF%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 291,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%97%90%EB%8B%88_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 786,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B",
+      "status": "scraped",
+      "lead_chars": 1419,
+      "lead_sentences": 16,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

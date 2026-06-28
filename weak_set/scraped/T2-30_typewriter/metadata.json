@@ -1,0 +1,42 @@
+{
+  "id": "T2-30",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the typewriter",
+  "clean_entity": "typewriter",
+  "question": "Who invented the typewriter?",
+  "primary_type": "B (Attribution)",
+  "notes": "Sholes vs earlier claims",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/typewriter",
+      "status": "scraped",
+      "lead_chars": 1730,
+      "lead_sentences": 15,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%89%93%E5%AD%97%E6%9C%BA",
+      "status": "scraped",
+      "lead_chars": 123,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9E%90%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 482,
+      "lead_sentences": 6,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%88%D1%83%D1%89%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%BA%D0%B0",
+      "status": "scraped",
+      "lead_chars": 1227,
+      "lead_sentences": 10,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

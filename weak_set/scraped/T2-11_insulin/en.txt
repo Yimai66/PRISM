@@ -1,0 +1,697 @@
+LEAD PARAGRAPHS
+================
+Insulin ( / ˈ ɪ n . sj ʊ . l ɪ n / ; from Latin insula ' island ' ) is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin ( INS) gene . It is the main anabolic hormone of the body. It regulates the metabolism of carbohydrates , fats , and protein by promoting the absorption of glucose from the blood into cells of the liver , fat , and skeletal muscles . In these tissues the absorbed glucose is converted into either glycogen , via glycogenesis , or fats ( triglycerides ), via lipogenesis ; in the liver, glucose is converted into both. Glucose production and secretion by the liver are strongly inhibited by high concentrations of insulin in the blood. Circulating insulin also affects the synthesis of proteins in a wide variety of tissues. It is thus an anabolic hormone, promoting the conversion of small molecules in the blood into large molecules in the cells. Low insulin in the blood has the opposite effect, promoting widespread catabolism , especially of reserve body fat .
+
+Beta cells are sensitive to blood sugar levels so that they secrete insulin into the blood in response to high level of glucose, and inhibit secretion of insulin when glucose levels are low. Insulin production is also regulated by glucose: high glucose promotes insulin production while low glucose levels lead to lower production. Insulin enhances glucose uptake and metabolism in the cells, thereby reducing blood sugar. Their neighboring alpha cells , by taking their cues from the beta cells, secrete glucagon into the blood in the opposite manner: increased secretion when blood glucose is low, and decreased secretion when glucose concentrations are high. Glucagon increases blood glucose by stimulating glycogenolysis and gluconeogenesis in the liver. The secretion of insulin and glucagon into the blood in response to the blood glucose concentration is the primary mechanism of glucose homeostasis .
+
+Decreased or absent insulin activity results in diabetes , a condition of high blood sugar level ( hyperglycaemia ). There are two types of the disease. In type 1 diabetes , the beta cells are destroyed by an autoimmune reaction so that insulin can no longer be synthesized or be secreted into the blood. In type 2 diabetes , the destruction of beta cells is less pronounced than in type 1, and is not due to an autoimmune process. Instead, there is an accumulation of amyloid in the pancreatic islets, which likely disrupts their anatomy and physiology. The pathogenesis of type 2 diabetes is not well understood but reduced population of islet beta-cells, reduced secretory function of islet beta-cells that survive, and peripheral tissue insulin resistance are known to be involved. Type 2 diabetes is characterized by increased glucagon secretion which is unaffected by, and unresponsive to the concentration of blood glucose. But insulin is still secreted into the blood in response to the blood glucose. As a result, glucose accumulates in the blood.
+
+The human insulin protein is composed of 51 amino acids , and has a molecular mass of 5808 Da . It is a hetero dimer of an A-chain and a B-chain, which are linked together by disulfide bonds . Insulin's structure varies slightly between species of animals. Insulin from non-human animal sources differs somewhat in effectiveness (in carbohydrate metabolism effects) from human insulin because of these variations. Porcine insulin is especially close to the human version, and was widely used to treat type 1 diabetics before human insulin could be produced in large quantities by recombinant DNA technologies.
+
+Insulin was the first peptide hormone discovered. Frederick Banting and Charles Best , working in the laboratory of John Macleod at the University of Toronto , were the first to isolate insulin from dog pancreas in 1921. Frederick Sanger sequenced the amino acid structure in 1951, which made insulin the first protein to be fully sequenced. The crystal structure of insulin in the solid state was determined by Dorothy Hodgkin in 1969. Insulin is also the first protein to be chemically synthesised and produced by DNA recombinant technology . It is on the WHO Model List of Essential Medicines , the most important medications needed in a basic health system .
+
+
+INFOBOX
+=======
+INS
+Available structures
+PDB
+Ortholog search:
+PDBe
+RCSB
+List of PDB id codes
+1A7F
+,
+1AI0
+,
+1AIY
+,
+1B9E
+,
+1BEN
+,
+1EV3
+,
+1EV6
+,
+1EVR
+,
+1FU2
+,
+1FUB
+,
+1G7A
+,
+1G7B
+,
+1GUJ
+,
+1HIQ
+,
+1HIS
+,
+1HIT
+,
+1HLS
+,
+1HTV
+,
+1HUI
+,
+1IOG
+,
+1IOH
+,
+1J73
+,
+1JCA
+,
+1JCO
+,
+1K3M
+,
+1KMF
+,
+1LKQ
+,
+1LPH
+,
+1MHI
+,
+1MHJ
+,
+1MSO
+,
+1OS3
+,
+1OS4
+,
+1Q4V
+,
+1QIY
+,
+1QIZ
+,
+1QJ0
+,
+1RWE
+,
+1SF1
+,
+1T1K
+,
+1T1P
+,
+1T1Q
+,
+1TRZ
+,
+1TYL
+,
+1TYM
+,
+1UZ9
+,
+1VKT
+,
+1W8P
+,
+1XDA
+,
+1XGL
+,
+1XW7
+,
+1ZEG
+,
+1ZEH
+,
+1ZNJ
+,
+2AIY
+,
+2C8Q
+,
+2C8R
+,
+2CEU
+,
+2H67
+,
+2HH4
+,
+2HHO
+,
+2HIU
+,
+2JMN
+,
+2JUM
+,
+2JUU
+,
+2JUV
+,
+2JV1
+,
+2JZQ
+,
+2K91
+,
+2K9R
+,
+2KJJ
+,
+2KJU
+,
+2KQQ
+,
+2KXK
+,
+2L1Y
+,
+2L1Z
+,
+2LGB
+,
+2M1D
+,
+2M1E
+,
+2M2M
+,
+2M2N
+,
+2M2O
+,
+2M2P
+,
+2OLY
+,
+2OLZ
+,
+2OM0
+,
+2OM1
+,
+2OMG
+,
+2OMH
+,
+2OMI
+,
+2QIU
+,
+2R34
+,
+2R35
+,
+2R36
+,
+2RN5
+,
+2VJZ
+,
+2VK0
+,
+2W44
+,
+2WBY
+,
+2WC0
+,
+2WRU
+,
+2WRV
+,
+2WRW
+,
+2WRX
+,
+2WS0
+,
+2WS1
+,
+2WS4
+,
+2WS6
+,
+2WS7
+,
+3AIY
+,
+3BXQ
+,
+3E7Y
+,
+3E7Z
+,
+3EXX
+,
+3FQ9
+,
+3I3Z
+,
+3I40
+,
+3ILG
+,
+3INC
+,
+3IR0
+,
+3Q6E
+,
+3ROV
+,
+3TT8
+,
+3U4N
+,
+3UTQ
+,
+3UTS
+,
+3UTT
+,
+3V19
+,
+3V1G
+,
+3W11
+,
+3W12
+,
+3W13
+,
+3W7Y
+,
+3W7Z
+,
+3W80
+,
+3ZI3
+,
+3ZQR
+,
+3ZS2
+,
+3ZU1
+,
+4AIY
+,
+4AJX
+,
+4AJZ
+,
+4AK0
+,
+4AKJ
+,
+4EFX
+,
+4EWW
+,
+4EWX
+,
+4EWZ
+,
+4EX0
+,
+4EX1
+,
+4EXX
+,
+4EY1
+,
+4EY9
+,
+4EYD
+,
+4EYN
+,
+4EYP
+,
+4F0N
+,
+4F0O
+,
+4F1A
+,
+4F1B
+,
+4F1C
+,
+4F1D
+,
+4F1F
+,
+4F1G
+,
+4F4T
+,
+4F4V
+,
+4F51
+,
+4F8F
+,
+4FG3
+,
+4FKA
+,
+4GBC
+,
+4GBI
+,
+4GBK
+,
+4GBL
+,
+4GBN
+,
+4IUZ
+,
+5AIY
+,
+2LWZ
+,
+3JSD
+,
+3KQ6
+,
+3P2X
+,
+3P33
+,
+1JK8
+,
+2MLI
+,
+2MPG
+,
+2MPI
+,
+2MVC
+,
+2MVD
+,
+4CXL
+,
+4CXN
+,
+4CY7
+,
+4NIB
+,
+4OGA
+,
+4P65
+,
+4Q5Z
+,
+4RXW
+,
+4UNE
+,
+4UNG
+,
+4UNH
+,
+4XC4
+,
+4WDI
+,
+4Z76
+,
+4Z77
+,
+4Z78
+,
+2N2W
+,
+5CO6
+,
+5ENA
+,
+4Y19
+,
+5BQQ
+,
+5BOQ
+,
+2N2V
+,
+5CNY
+,
+5CO9
+,
+5EN9
+,
+4Y1A
+,
+2N2X
+,
+5BPO
+,
+5CO2
+,
+5BTS
+,
+5HYJ
+,
+5C0D
+,%%s
+1EFE
+,
+1SJT
+,
+1SJU
+,
+2KQP
+,%%s
+1T0C
+,%%s
+2G54
+,
+2G56
+,
+3HYD
+,
+2OMQ
+Identifiers
+Aliases
+INS
+, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10, insulin, PNDM4
+External IDs
+OMIM
+:
+176730
+;
+MGI
+:
+96573
+;
+HomoloGene
+:
+173
+;
+GeneCards
+:
+INS
+;
+OMA
+:
+INS - orthologs
+Gene location (
+Human
+)
+Chr.
+Chromosome 11 (human)
+Band
+11p15.5
+Start
+2,159,779
+bp
+End
+2,161,221
+bp
+Gene location (
+Mouse
+)
+Chr.
+Chromosome 7 (mouse)
+Band
+7 F5|7 88.0 cM
+Start
+142,232,393
+bp
+End
+142,297,118
+bp
+RNA expression
+pattern
+Bgee
+Human
+Mouse
+(ortholog)
+Top expressed in
+beta cell
+body of pancreas
+right lobe of liver
+right adrenal gland
+left adrenal gland
+left adrenal cortex
+right adrenal cortex
+ectocervix
+Descending thoracic aorta
+left uterine tube
+Top expressed in
+islet of Langerhans
+pyloric antrum
+choroid plexus of fourth ventricle
+Epithelium of choroid plexus
+human fetus
+yolk sac
+retinal pigment epithelium
+embryo
+secondary oocyte
+primordial pancreas
+More reference expression data
+BioGPS
+More reference expression data
+Gene ontology
+Molecular function
+insulin receptor binding
+identical protein binding
+protease binding
+insulin-like growth factor receptor binding
+protein binding
+hormone activity
+Cellular component
+endoplasmic reticulum lumen
+transport vesicle
+Golgi membrane
+secretory granule lumen
+Golgi lumen
+endoplasmic reticulum-Golgi intermediate compartment membrane
+endosome lumen
+extracellular region
+extracellular space
+Biological process
+negative regulation of NAD(P)H oxidase activity
+positive regulation of DNA replication
+positive regulation of MAPK cascade
+positive regulation of brown fat cell differentiation
+positive regulation of cell differentiation
+MAPK cascade
+positive regulation of respiratory burst
+positive regulation of phosphatidylinositol 3-kinase signaling
+negative regulation of protein oligomerization
+positive regulation of NF-kappaB transcription factor activity
+negative regulation of respiratory burst involved in inflammatory response
+cell-cell signaling
+positive regulation of nitric oxide biosynthetic process
+positive regulation of glycolytic process
+positive regulation of nitric-oxide synthase activity
+positive regulation of protein autophosphorylation
+activation of protein kinase B activity
+wound healing
+positive regulation of mitotic nuclear division
+negative regulation of feeding behavior
+positive regulation of peptide hormone secretion
+negative regulation of protein catabolic process
+positive regulation of cell migration
+acute-phase response
+regulation of protein secretion
+positive regulation of glycogen biosynthetic process
+positive regulation of protein kinase B signaling
+G protein-coupled receptor signaling pathway
+regulation of cellular amino acid metabolic process
+negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway
+endoplasmic reticulum to Golgi vesicle-mediated transport
+negative regulation of lipid catabolic process
+positive regulation of cell growth
+negative regulation of glycogen catabolic process
+positive regulation of insulin receptor signaling pathway
+glucose metabolic process
+negative regulation of acute inflammatory response
+negative regulation of protein secretion
+positive regulation of peptidyl-tyrosine phosphorylation
+glucose homeostasis
+positive regulation of cell population proliferation
+fatty acid homeostasis
+positive regulation of protein metabolic process
+regulation of transmembrane transporter activity
+negative regulation of gluconeogenesis
+negative regulation of fatty acid metabolic process
+regulation of protein localization
+regulation of transcription, DNA-templated
+positive regulation of lipid biosynthetic process
+carbohydrate metabolic process
+negative regulation of proteolysis
+alpha-beta T cell activation
+positive regulation of protein localization to nucleus
+positive regulation of glucose import
+insulin receptor signaling pathway
+positive regulation of gene expression
+regulation of signaling receptor activity
+positive regulation of nitric oxide mediated signal transduction
+regulation of synaptic plasticity
+cognition
+positive regulation of long-term synaptic potentiation
+positive regulation of dendritic spine maintenance
+regulation of protein localization to plasma membrane
+negative regulation of reactive oxygen species biosynthetic process
+neuron projection maintenance
+response to L-arginine
+signal transduction
+Sources:
+Amigo
+/
+QuickGO
+Orthologs
+Species
+Human
+Mouse
+Entrez
+3630
+16334
+Ensembl
+ENSG00000254647
+ENSMUSG00000000215
+UniProt
+P01308
+P01326
+RefSeq (mRNA)
+NM_000207
+NM_001185097
+NM_001185098
+NM_001291897
+NM_001185083
+NM_001185084
+NM_008387
+RefSeq (protein)
+NP_000198
+NP_001172026
+NP_001172027
+NP_001278826
+NP_000198.1
+NP_001172026.1
+NP_001172027.1
+NP_001278826.1
+NP_000198
+NP_000198
+NP_000198
+NP_000198
+NP_001172012
+NP_001172013
+NP_032413
+Location (UCSC)
+Chr 11: 2.16 – 2.16 Mb
+Chr 7: 142.23 – 142.3 Mb
+PubMed
+search
+Wikidata
+View/Edit Human
+View/Edit Mouse

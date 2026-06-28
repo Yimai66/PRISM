@@ -1,0 +1,42 @@
+{
+  "id": "T2-11",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "insulin",
+  "clean_entity": "insulin",
+  "question": "Who invented insulin?",
+  "primary_type": "B (Attribution)",
+  "notes": "Banting vs Macleod vs Best",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/insulin",
+      "status": "scraped",
+      "lead_chars": 4277,
+      "lead_sentences": 38,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%83%B0%E5%B2%9B%E7%B4%A0",
+      "status": "scraped",
+      "lead_chars": 330,
+      "lead_sentences": 8,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8A%90%EB%A6%B0",
+      "status": "scraped",
+      "lead_chars": 1703,
+      "lead_sentences": 1,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%81%D1%83%D0%BB%D0%B8%D0%BD",
+      "status": "scraped",
+      "lead_chars": 1122,
+      "lead_sentences": 9,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

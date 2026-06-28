@@ -1,0 +1,44 @@
+{
+  "id": "T4-28",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Counter-Reformation",
+  "clean_entity": "Counter-Reformation",
+  "question": "When did the Counter-Reformation start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "boundary with Reformation",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Counter-Reformation",
+      "status": "scraped",
+      "lead_chars": 1891,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E5%AE%97%E6%95%99%E6%94%B9%E9%9D%A9",
+      "status": "scraped",
+      "lead_chars": 137,
+      "lead_sentences": 1,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%B0%98%EC%A2%85%EA%B5%90%EA%B0%9C%ED%98%81",
+      "status": "scraped",
+      "lead_chars": 403,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D1%80%D0%B5%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 1295,
+      "lead_sentences": 8,
+      "has_infobox": false
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "zh: lead_too_short_1_sentences_137_chars"
+  ]
+}

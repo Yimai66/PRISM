@@ -1,0 +1,42 @@
+{
+  "id": "T4-22",
+  "template_id": "T4",
+  "template_name": "When did [ERA] start or end?",
+  "raw_entity": "the Han dynasty",
+  "clean_entity": "Han dynasty",
+  "question": "When did the Han dynasty start?",
+  "primary_type": "E (Definitional Boundary)",
+  "notes": "boundary with Qin and Three Kingdoms",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Han_dynasty",
+      "status": "scraped",
+      "lead_chars": 4122,
+      "lead_sentences": 28,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E6%9C%9D",
+      "status": "scraped",
+      "lead_chars": 1348,
+      "lead_sentences": 20,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%82%98%EB%9D%BC",
+      "status": "scraped",
+      "lead_chars": 1233,
+      "lead_sentences": 19,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%A5%D0%B0%D0%BD%D1%8C",
+      "status": "scraped",
+      "lead_chars": 1076,
+      "lead_sentences": 29,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

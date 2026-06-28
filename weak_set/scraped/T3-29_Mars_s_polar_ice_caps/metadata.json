@@ -1,0 +1,23 @@
+{
+  "id": "T3-29",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "Mars's polar ice caps",
+  "clean_entity": "Mars's polar ice caps",
+  "question": "Who discovered Mars's polar ice caps?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Cassini vs Maraldi vs Herschel",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Mars's_polar_ice_caps",
+      "status": "missing_article"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: missing_article",
+    "zh: missing_language_metadata",
+    "ko: missing_language_metadata",
+    "ru: missing_language_metadata"
+  ]
+}

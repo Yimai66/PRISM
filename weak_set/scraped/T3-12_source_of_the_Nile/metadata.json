@@ -1,0 +1,42 @@
+{
+  "id": "T3-12",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "the source of the Nile",
+  "clean_entity": "source of the Nile",
+  "question": "Who discovered the source of the Nile?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Speke vs Burton vs prior local knowledge",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/source_of_the_Nile",
+      "status": "scraped",
+      "lead_chars": 3092,
+      "lead_sentences": 25,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E7%BD%97%E6%B2%B3",
+      "status": "scraped",
+      "lead_chars": 185,
+      "lead_sentences": 3,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%9D%BC%EA%B0%95",
+      "status": "scraped",
+      "lead_chars": 233,
+      "lead_sentences": 4,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BB",
+      "status": "scraped",
+      "lead_chars": 950,
+      "lead_sentences": 14,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T3-10",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "oxygen",
+  "clean_entity": "oxygen",
+  "question": "Who discovered oxygen?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Lavoisier vs Priestley vs Scheele",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/oxygen",
+      "status": "scraped",
+      "lead_chars": 3137,
+      "lead_sentences": 21,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%A7",
+      "status": "scraped",
+      "lead_chars": 2199,
+      "lead_sentences": 29,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%86%8C",
+      "status": "scraped",
+      "lead_chars": 581,
+      "lead_sentences": 9,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D1%80%D0%BE%D0%B4",
+      "status": "scraped",
+      "lead_chars": 647,
+      "lead_sentences": 8,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

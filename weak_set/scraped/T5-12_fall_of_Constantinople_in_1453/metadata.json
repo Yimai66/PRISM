@@ -1,0 +1,23 @@
+{
+  "id": "T5-12",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the fall of Constantinople in 1453",
+  "clean_entity": "fall of Constantinople in 1453",
+  "question": "What caused the fall of Constantinople in 1453?",
+  "primary_type": "D (Framing)",
+  "notes": "Ottoman vs Greek framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/fall_of_Constantinople_in_1453",
+      "status": "missing_article"
+    }
+  },
+  "keep": false,
+  "drop_reasons": [
+    "en: missing_article",
+    "zh: missing_language_metadata",
+    "ko: missing_language_metadata",
+    "ru: missing_language_metadata"
+  ]
+}

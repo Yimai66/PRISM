@@ -1,0 +1,42 @@
+{
+  "id": "T2-18",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "paper",
+  "clean_entity": "paper",
+  "question": "Who invented paper?",
+  "primary_type": "B (Attribution)",
+  "notes": "Chinese Cai Lun vs Egyptian papyrus",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/paper",
+      "status": "scraped",
+      "lead_chars": 807,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%BA%B8",
+      "status": "scraped",
+      "lead_chars": 225,
+      "lead_sentences": 3,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A2%85%EC%9D%B4",
+      "status": "scraped",
+      "lead_chars": 562,
+      "lead_sentences": 7,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0",
+      "status": "scraped",
+      "lead_chars": 611,
+      "lead_sentences": 6,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

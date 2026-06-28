@@ -1,0 +1,42 @@
+{
+  "id": "T2-16",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "vaccination",
+  "clean_entity": "vaccination",
+  "question": "Who invented vaccination?",
+  "primary_type": "B (Attribution)",
+  "notes": "Jenner vs earlier Chinese/Indian variolation",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/vaccination",
+      "status": "scraped",
+      "lead_chars": 3066,
+      "lead_sentences": 26,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A8%AE",
+      "status": "scraped",
+      "lead_chars": 224,
+      "lead_sentences": 2,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85",
+      "status": "scraped",
+      "lead_chars": 733,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F",
+      "status": "scraped",
+      "lead_chars": 2796,
+      "lead_sentences": 17,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

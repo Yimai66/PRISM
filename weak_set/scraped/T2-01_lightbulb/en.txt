@@ -1,0 +1,31 @@
+LEAD PARAGRAPHS
+================
+An electric light , lamp , or light bulb is an electrical device that produces light from electricity . It is the most common form of artificial lighting . Lamps usually have a base made of ceramic , metal, glass, or plastic that secures them in the socket of a light fixture . The electrical connection to the socket may be made with a screw-thread base, two metal pins, two metal caps or a bayonet mount .
+
+The three main categories of electric lights are incandescent lamps, which produce light by a filament heated white-hot by electric current , gas-discharge lamps , which produce light by means of an electric arc through a gas, such as fluorescent lamps , and LED lamps , which produce light by a flow of electrons across a band gap in a semiconductor .
+
+The energy efficiency of electric lighting has significantly improved since the first demonstrations of arc lamps and incandescent light bulbs in the 19th century. Modern electric light sources come in a profusion of types and sizes adapted to many applications. Most modern electric lighting is powered by centrally generated electric power, but lighting may also be powered by mobile or standby electric generators or battery systems. Battery -powered light is often reserved for when and where stationary lights fail, often in the form of flashlights or electric lanterns , as well as in vehicles.
+
+
+INFOBOX
+=======
+Electric light
+Incandescent
+,
+compact fluorescent
+, and
+LED lamps
+Working principle
+‍
+Incandescence
+,
+fluorescence
+,
+electroluminescence
+Inventor
+Humphry Davy
+Invention year
+1800s
+First produced
+1880s
+Electronic symbol

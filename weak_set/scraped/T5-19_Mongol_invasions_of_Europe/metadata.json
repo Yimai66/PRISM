@@ -1,0 +1,42 @@
+{
+  "id": "T5-19",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Mongol invasions of Europe",
+  "clean_entity": "Mongol invasions of Europe",
+  "question": "What caused the Mongol invasions of Europe?",
+  "primary_type": "D (Framing)",
+  "notes": "European vs Russian vs Mongol-source",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Europe",
+      "status": "scraped",
+      "lead_chars": 1463,
+      "lead_sentences": 12,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%AD%90%E8%A5%BF%E5%BE%81",
+      "status": "scraped",
+      "lead_chars": 469,
+      "lead_sentences": 6,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A8%EC%9D%98_%EC%9C%A0%EB%9F%BD_%EC%9B%90%EC%A0%95",
+      "status": "scraped",
+      "lead_chars": 1038,
+      "lead_sentences": 14,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%85%D0%BE%D0%B4_%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2",
+      "status": "scraped",
+      "lead_chars": 904,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

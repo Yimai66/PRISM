@@ -1,0 +1,42 @@
+{
+  "id": "T3-09",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "evolution by natural selection",
+  "clean_entity": "evolution by natural selection",
+  "question": "Who discovered evolution by natural selection?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Darwin vs Wallace",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/evolution_by_natural_selection",
+      "status": "scraped",
+      "lead_chars": 3653,
+      "lead_sentences": 27,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E9%80%89%E6%8B%A9",
+      "status": "scraped",
+      "lead_chars": 539,
+      "lead_sentences": 6,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%84%A0%ED%83%9D",
+      "status": "scraped",
+      "lead_chars": 834,
+      "lead_sentences": 13,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%95%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BE%D1%82%D0%B1%D0%BE%D1%80",
+      "status": "scraped",
+      "lead_chars": 1467,
+      "lead_sentences": 8,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

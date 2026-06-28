@@ -1,0 +1,42 @@
+{
+  "id": "T3-14",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "the Inca Empire",
+  "clean_entity": "Inca Empire",
+  "question": "Who discovered the Inca Empire?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "European framing vs prior Andean histories",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Inca_Empire",
+      "status": "scraped",
+      "lead_chars": 3045,
+      "lead_sentences": 23,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%B0%E5%8A%A0%E5%B8%9D%E5%9C%8B",
+      "status": "scraped",
+      "lead_chars": 848,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%89%EC%B9%B4_%EC%A0%9C%EA%B5%AD",
+      "status": "scraped",
+      "lead_chars": 962,
+      "lead_sentences": 12,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%BD%D0%BA%D0%BE%D0%B2",
+      "status": "scraped",
+      "lead_chars": 2813,
+      "lead_sentences": 16,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

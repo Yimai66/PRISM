@@ -1,0 +1,14 @@
+LEAD PARAGRAPHS
+================
+The expansion of the universe is the increase in distance between gravitationally unbound parts of the observable universe with time. It is an intrinsic expansion, so it does not mean that the universe expands into anything or that space exists outside it. To any observer in the universe, it appears that all but the nearest galaxies (which are bound to each other by gravity) move away at speeds that are proportional to their distance from the observer , on average. While objects cannot move faster than light , this limitation applies only with respect to local reference frames and does not limit the recession rates of cosmologically distant objects.
+
+The expansion of the universe was discovered by separate theoretical and observational work in the 1920s. Since then, the expansion has become a core aspect of the astrophysical field of cosmology . Many major scientific projects have sought to characterize the expansion and understand its effects.
+
+Cosmic expansion is a key feature of Big Bang cosmology. Within the theory of general relativity , it is modeled mathematically with the Friedmann–Lemaître–Robertson–Walker (FLRW) metric . The consensus or "standard" model of cosmology, the Lambda-CDM model , hypothesizes different expansion rates during different times, depending on the physical properties of the contents of spacetime. The very earliest expansion, called inflation , saw the universe suddenly expand by a factor of at least 10 in every direction about 10 of a second after the Big Bang. Cosmic expansion subsequently decelerated to much slower rates, until around 9.8 billion years after the Big Bang (4 billion years ago) it began to gradually expand more quickly , and is still doing so. Physicists have postulated the existence of dark energy , appearing as a cosmological constant in the simplest gravitational models, as a way to explain this late-time acceleration which is predicted to be dominant in the future.
+
+The concept of the expansion of the universe is difficult to explain, leading to several misconceptions about its nature, origin, and effects.
+
+
+INFOBOX
+=======
+[NO INFOBOX FOUND]

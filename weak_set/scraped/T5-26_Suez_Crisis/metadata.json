@@ -1,0 +1,42 @@
+{
+  "id": "T5-26",
+  "template_id": "T5",
+  "template_name": "What caused [EVENT]?",
+  "raw_entity": "the Suez Crisis",
+  "clean_entity": "Suez Crisis",
+  "question": "What caused the Suez Crisis?",
+  "primary_type": "D (Framing)",
+  "notes": "UK/France vs Egyptian vs US framings",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Suez_Crisis",
+      "status": "scraped",
+      "lead_chars": 1892,
+      "lead_sentences": 11,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 200,
+      "lead_sentences": 3,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%97%90%EC%A6%88_%EC%9C%84%EA%B8%B0",
+      "status": "scraped",
+      "lead_chars": 1140,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%8D%D1%86%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B8%D0%B7%D0%B8%D1%81",
+      "status": "scraped",
+      "lead_chars": 198,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

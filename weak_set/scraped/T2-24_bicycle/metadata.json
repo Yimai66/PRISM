@@ -1,0 +1,42 @@
+{
+  "id": "T2-24",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "the bicycle",
+  "clean_entity": "bicycle",
+  "question": "Who invented the bicycle?",
+  "primary_type": "B (Attribution)",
+  "notes": "Drais vs MacMillan vs Michaux",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/bicycle",
+      "status": "scraped",
+      "lead_chars": 1457,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%99%E8%BC%AA%E8%BB%8A",
+      "status": "scraped",
+      "lead_chars": 615,
+      "lead_sentences": 13,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%A0%84%EA%B1%B0",
+      "status": "scraped",
+      "lead_chars": 567,
+      "lead_sentences": 8,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4",
+      "status": "scraped",
+      "lead_chars": 1416,
+      "lead_sentences": 12,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T1-08",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Second Boer War",
+  "clean_entity": "Second Boer War",
+  "question": "Who won the Second Boer War?",
+  "primary_type": "C (Outcome)",
+  "notes": "UK vs Boer/Afrikaner framing",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Second_Boer_War",
+      "status": "scraped",
+      "lead_chars": 3938,
+      "lead_sentences": 33,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%B8%83%E5%B0%94%E6%88%98%E4%BA%89",
+      "status": "scraped",
+      "lead_chars": 297,
+      "lead_sentences": 4,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EB%B3%B4%EC%96%B4_%EC%A0%84%EC%9F%81",
+      "status": "scraped",
+      "lead_chars": 1062,
+      "lead_sentences": 15,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D1%82%D0%BE%D1%80%D0%B0%D1%8F_%D0%B0%D0%BD%D0%B3%D0%BB%D0%BE-%D0%B1%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0",
+      "status": "scraped",
+      "lead_chars": 212,
+      "lead_sentences": 1,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

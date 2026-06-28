@@ -1,0 +1,42 @@
+{
+  "id": "T3-07",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "Neptune",
+  "clean_entity": "Neptune",
+  "question": "Who discovered Neptune?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Adams vs Le Verrier vs Galle",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Neptune",
+      "status": "scraped",
+      "lead_chars": 3339,
+      "lead_sentences": 34,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%8E%8B%E6%98%9F",
+      "status": "scraped",
+      "lead_chars": 773,
+      "lead_sentences": 16,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%95%B4%EC%99%95%EC%84%B1",
+      "status": "scraped",
+      "lead_chars": 1033,
+      "lead_sentences": 17,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D1%82%D1%83%D0%BD",
+      "status": "scraped",
+      "lead_chars": 1497,
+      "lead_sentences": 15,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "T3-16",
+  "template_id": "T3",
+  "template_name": "Who discovered [X]?",
+  "raw_entity": "vitamin C",
+  "clean_entity": "vitamin C",
+  "question": "Who discovered vitamin C?",
+  "primary_type": "B (Attribution) + F (Omission)",
+  "notes": "Szent-Gyorgyi vs Waugh and King",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/vitamin_C",
+      "status": "scraped",
+      "lead_chars": 1876,
+      "lead_sentences": 18,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E7%94%9F%E7%B4%A0C",
+      "status": "scraped",
+      "lead_chars": 1183,
+      "lead_sentences": 31,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%83%80%EB%AF%BC_C",
+      "status": "scraped",
+      "lead_chars": 765,
+      "lead_sentences": 14,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD_C",
+      "status": "scraped",
+      "lead_chars": 1031,
+      "lead_sentences": 10,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

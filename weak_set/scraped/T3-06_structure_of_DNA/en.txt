@@ -1,0 +1,12 @@
+LEAD PARAGRAPHS
+================
+In molecular biology , the double helix is the structure formed by double-stranded molecules of nucleic acids such as DNA . The double- helical structure of a nucleic acid complex arises as a consequence of its secondary structure , and is a fundamental component in determining its tertiary structure .
+
+The DAN double-helix biopolymer of nucleic acids is held together by nucleotides which base pair together. In B-DNA, the most common double-helical structure found in nature, the double helix is right-handed with about 10–10.5 base pairs per turn. The double-helix structure of DNA contains a major groove and minor groove . In B-DNA the major groove is wider than the minor groove. Given the difference in widths of the major groove and minor groove, many proteins which bind to B-DNA do so through the wider major groove.
+
+The double helix structure of DNA was first proposed by James Watson and Francis Crick , based on the work of Rosalind Franklin , Raymond Gosling , Maurice Wilkins , and others. The term "double helix" entered popular culture with the 1968 publication of Watson's The Double Helix: A Personal Account of the Discovery of the Structure of DNA .
+
+
+INFOBOX
+=======
+[NO INFOBOX FOUND]

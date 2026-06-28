@@ -1,0 +1,42 @@
+{
+  "id": "T1-11",
+  "template_id": "T1",
+  "template_name": "Who won [WAR]?",
+  "raw_entity": "the Russo-Turkish War of 1877-78",
+  "clean_entity": "Russo-Turkish War of 1877-78",
+  "question": "Who won the Russo-Turkish War of 1877-78?",
+  "primary_type": "C (Outcome)",
+  "notes": "Russia vs Ottoman",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/Russo-Turkish_War_of_1877-78",
+      "status": "scraped",
+      "lead_chars": 1120,
+      "lead_sentences": 7,
+      "has_infobox": true
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%84%E5%9C%9F%E6%88%B0%E7%88%AD_(1877%E5%B9%B4%E2%80%941878%E5%B9%B4)",
+      "status": "scraped",
+      "lead_chars": 1637,
+      "lead_sentences": 32,
+      "has_infobox": true
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EC%8B%9C%EC%95%84-%ED%8A%80%EB%A5%B4%ED%81%AC_%EC%A0%84%EC%9F%81_(1877%EB%85%84~1878%EB%85%84)",
+      "status": "scraped",
+      "lead_chars": 191,
+      "lead_sentences": 1,
+      "has_infobox": true
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE-%D1%82%D1%83%D1%80%D0%B5%D1%86%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_(1877%E2%80%941878)",
+      "status": "scraped",
+      "lead_chars": 240,
+      "lead_sentences": 11,
+      "has_infobox": true
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

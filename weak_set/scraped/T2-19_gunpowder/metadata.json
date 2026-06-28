@@ -1,0 +1,42 @@
+{
+  "id": "T2-19",
+  "template_id": "T2",
+  "template_name": "Who invented [TECH]?",
+  "raw_entity": "gunpowder",
+  "clean_entity": "gunpowder",
+  "question": "Who invented gunpowder?",
+  "primary_type": "B (Attribution)",
+  "notes": "Chinese alchemists vs others",
+  "languages": {
+    "en": {
+      "url": "https://en.wikipedia.org/wiki/gunpowder",
+      "status": "scraped",
+      "lead_chars": 1731,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "zh": {
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%81%AB%E8%8D%AF",
+      "status": "scraped",
+      "lead_chars": 308,
+      "lead_sentences": 4,
+      "has_infobox": false
+    },
+    "ko": {
+      "url": "https://ko.wikipedia.org/wiki/%ED%9D%91%EC%83%89%ED%99%94%EC%95%BD",
+      "status": "scraped",
+      "lead_chars": 617,
+      "lead_sentences": 12,
+      "has_infobox": false
+    },
+    "ru": {
+      "url": "https://ru.wikipedia.org/wiki/%D0%94%D1%8B%D0%BC%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85",
+      "status": "scraped",
+      "lead_chars": 1458,
+      "lead_sentences": 10,
+      "has_infobox": false
+    }
+  },
+  "keep": true,
+  "drop_reasons": []
+}

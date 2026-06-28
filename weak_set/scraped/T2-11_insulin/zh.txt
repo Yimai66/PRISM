@@ -1,0 +1,684 @@
+LEAD PARAGRAPHS
+================
+胰島素 （英語： insulin ） 是一種由 胰臟 分泌的 肽类激素 ，可以促進 肝臟細胞 和 肌肉細胞 將 葡萄糖 轉化為 糖原 。胰島素的降低會導致肝臟細胞將糖原轉化為葡萄糖，並釋放葡萄糖到血液中。這一性质是其被用於在臨床上治療 糖尿病 患者高血糖的原因。胰岛素亦可以增強 脂肪酸 的 酯化 作用：促進 脂肪細胞 將脂肪酸酯合成為 脂肪 。
+
+胰島素應用於臨床數十年，從抗原性較強的第一代動物胰島素到基因重組。但餐前需要等待30分鐘的第二代人胰島素，再發展到現在可以很好模擬生理性人胰島素分泌模式的胰島素類似物。目前更好的模擬正常人體生理降糖模式的胰島素是第三代胰島素——胰島素類似物。 其化學式为 C 257 H 383 N 65 O 77 S 6 。
+
+
+INFOBOX
+=======
+INS
+已知的结构
+PDB
+直系同源搜索：
+PDBe
+RCSB
+PDBID列表
+1A7F
+、
+1AI0
+、
+1AIY
+、
+1B9E
+、
+1BEN
+、
+1EV3
+、
+1EV6
+、
+1EVR
+、
+1FU2
+、
+1FUB
+、
+1G7A
+、
+1G7B
+、
+1GUJ
+、
+1HIQ
+、
+1HIS
+、
+1HIT
+、
+1HLS
+、
+1HTV
+、
+1HUI
+、
+1IOG
+、
+1IOH
+、
+1J73
+、
+1JCA
+、
+1JCO
+、
+1K3M
+、
+1KMF
+、
+1LKQ
+、
+1LPH
+、
+1MHI
+、
+1MHJ
+、
+1MSO
+、
+1OS3
+、
+1OS4
+、
+1Q4V
+、
+1QIY
+、
+1QIZ
+、
+1QJ0
+、
+1RWE
+、
+1SF1
+、
+1T1K
+、
+1T1P
+、
+1T1Q
+、
+1TRZ
+、
+1TYL
+、
+1TYM
+、
+1UZ9
+、
+1VKT
+、
+1W8P
+、
+1XDA
+、
+1XGL
+、
+1XW7
+、
+1ZEG
+、
+1ZEH
+、
+1ZNJ
+、
+2AIY
+、
+2C8Q
+、
+2C8R
+、
+2CEU
+、
+2H67
+、
+2HH4
+、
+2HHO
+、
+2HIU
+、
+2JMN
+、
+2JUM
+、
+2JUU
+、
+2JUV
+、
+2JV1
+、
+2JZQ
+、
+2K91
+、
+2K9R
+、
+2KJJ
+、
+2KJU
+、
+2KQQ
+、
+2KXK
+、
+2L1Y
+、
+2L1Z
+、
+2LGB
+、
+2M1D
+、
+2M1E
+、
+2M2M
+、
+2M2N
+、
+2M2O
+、
+2M2P
+、
+2OLY
+、
+2OLZ
+、
+2OM0
+、
+2OM1
+、
+2OMG
+、
+2OMH
+、
+2OMI
+、
+2QIU
+、
+2R34
+、
+2R35
+、
+2R36
+、
+2RN5
+、
+2VJZ
+、
+2VK0
+、
+2W44
+、
+2WBY
+、
+2WC0
+、
+2WRU
+、
+2WRV
+、
+2WRW
+、
+2WRX
+、
+2WS0
+、
+2WS1
+、
+2WS4
+、
+2WS6
+、
+2WS7
+、
+3AIY
+、
+3BXQ
+、
+3E7Y
+、
+3E7Z
+、
+3EXX
+、
+3FQ9
+、
+3I3Z
+、
+3I40
+、
+3ILG
+、
+3INC
+、
+3IR0
+、
+3Q6E
+、
+3ROV
+、
+3TT8
+、
+3U4N
+、
+3UTQ
+、
+3UTS
+、
+3UTT
+、
+3V19
+、
+3V1G
+、
+3W11
+、
+3W12
+、
+3W13
+、
+3W7Y
+、
+3W7Z
+、
+3W80
+、
+3ZI3
+、
+3ZQR
+、
+3ZS2
+、
+3ZU1
+、
+4AIY
+、
+4AJX
+、
+4AJZ
+、
+4AK0
+、
+4AKJ
+、
+4EFX
+、
+4EWW
+、
+4EWX
+、
+4EWZ
+、
+4EX0
+、
+4EX1
+、
+4EXX
+、
+4EY1
+、
+4EY9
+、
+4EYD
+、
+4EYN
+、
+4EYP
+、
+4F0N
+、
+4F0O
+、
+4F1A
+、
+4F1B
+、
+4F1C
+、
+4F1D
+、
+4F1F
+、
+4F1G
+、
+4F4T
+、
+4F4V
+、
+4F51
+、
+4F8F
+、
+4FG3
+、
+4FKA
+、
+4GBC
+、
+4GBI
+、
+4GBK
+、
+4GBL
+、
+4GBN
+、
+4IUZ
+、
+5AIY
+、
+2LWZ
+、
+3JSD
+、
+3KQ6
+、
+3P2X
+、
+3P33
+、
+1JK8
+、
+2MLI
+、
+2MPG
+、
+2MPI
+、
+2MVC
+、
+2MVD
+、
+4CXL
+、
+4CXN
+、
+4CY7
+、
+4NIB
+、
+4OGA
+、
+4P65
+、
+4Q5Z
+、
+4RXW
+、
+4UNE
+、
+4UNG
+、
+4UNH
+、
+4XC4
+、
+4WDI
+、
+4Z76
+、
+4Z77
+、
+4Z78
+、
+2N2W
+、
+5CO6
+、
+5ENA
+、
+4Y19
+、
+5BQQ
+、
+5BOQ
+、
+2N2V
+、
+5CNY
+、
+5CO9
+、
+5EN9
+、
+4Y1A
+、
+2N2X
+、
+5BPO
+、
+5CO2
+、
+5BTS
+、
+5HYJ
+、
+5C0D
+,%%s
+1EFE
+、
+1SJT
+、
+1SJU
+、
+2KQP
+,%%s
+1T0C
+,%%s
+2G54
+、
+2G56
+、
+3HYD
+、
+2OMQ
+标识符
+代号
+INS
+、因休林
+扩展标识
+OMIM
+：
+176730
+；
+MGI
+：
+96573
+；
+HomoloGene
+：
+173
+；
+GeneCards
+：
+INS
+；
+OMA
+：
+INS - orthologs
+基因位置（
+人类
+）
+染色体
+11號染色體
+基因座
+11p15.5
+起始
+2,159,779
+bp
+终止
+2,161,221
+bp
+基因位置（
+小鼠
+）
+染色体
+小鼠7号染色体
+基因座
+7 F5|7 88.0 cM
+起始
+142,232,393
+bp
+终止
+142,297,118
+bp
+RNA表达
+模式
+Bgee
+人类
+小鼠
+（直系同源）
+Top expressed in
+body of pancreas
+right lobe of liver
+right adrenal gland
+left adrenal gland
+left adrenal cortex
+right adrenal cortex
+ectocervix
+Descending thoracic aorta
+left uterine tube
+Top expressed in
+pyloric antrum
+choroid plexus of fourth ventricle
+Epithelium of choroid plexus
+primordial pancreas
+查阅更多表达数据
+BioGPS
+查阅更多表达数据
+基因本體
+分子功能
+insulin receptor binding
+相同蛋白质结合
+蛋白酶結合
+insulin-like growth factor receptor binding
+血浆蛋白结合
+hormone activity
+細胞組分
+endoplasmic reticulum lumen
+transport vesicle
+Golgi membrane
+secretory granule lumen
+Golgi lumen
+endoplasmic reticulum-Golgi intermediate compartment membrane
+endosome lumen
+細胞外區域
+細胞外空間
+生物學過程
+negative regulation of NAD(P)H oxidase activity
+positive regulation of DNA replication
+positive regulation of MAPK cascade
+positive regulation of brown fat cell differentiation
+positive regulation of cell differentiation
+MAPK cascade
+positive regulation of respiratory burst
+positive regulation of phosphatidylinositol 3-kinase signaling
+negative regulation of protein oligomerization
+positive regulation of NF-kappaB transcription factor activity
+negative regulation of respiratory burst involved in inflammatory response
+cell-cell signaling
+positive regulation of nitric oxide biosynthetic process
+positive regulation of glycolytic process
+positive regulation of nitric-oxide synthase activity
+positive regulation of protein autophosphorylation
+activation of protein kinase B activity
+傷口癒合
+positive regulation of mitotic nuclear division
+negative regulation of feeding behavior
+positive regulation of peptide hormone secretion
+negative regulation of protein catabolic process
+positive regulation of cell migration
+急性期反应
+regulation of protein secretion
+positive regulation of glycogen biosynthetic process
+positive regulation of protein kinase B signaling
+G protein-coupled receptor signaling pathway
+regulation of cellular amino acid metabolic process
+negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway
+endoplasmic reticulum to Golgi vesicle-mediated transport
+negative regulation of lipid catabolic process
+positive regulation of cell growth
+negative regulation of glycogen catabolic process
+positive regulation of insulin receptor signaling pathway
+glucose metabolic process
+negative regulation of acute inflammatory response
+negative regulation of protein secretion
+positive regulation of peptidyl-tyrosine phosphorylation
+glucose homeostasis
+positive regulation of cell population proliferation
+fatty acid homeostasis
+positive regulation of protein metabolic process
+regulation of transmembrane transporter activity
+negative regulation of gluconeogenesis
+negative regulation of fatty acid metabolic process
+regulation of protein localization
+regulation of transcription, DNA-templated
+positive regulation of lipid biosynthetic process
+碳水化合物代謝
+negative regulation of proteolysis
+alpha-beta T cell activation
+positive regulation of protein localization to nucleus
+positive regulation of glucose import
+insulin receptor signaling pathway
+positive regulation of gene expression
+regulation of signaling receptor activity
+positive regulation of nitric oxide mediated signal transduction
+regulation of synaptic plasticity
+認知
+positive regulation of long-term synaptic potentiation
+positive regulation of dendritic spine maintenance
+regulation of protein localization to plasma membrane
+negative regulation of reactive oxygen species biosynthetic process
+neuron projection maintenance
+response to L-arginine
+訊息傳遞
+来源：
+Amigo
+/
+QuickGO
+直系同源
+物種
+人類
+小鼠
+Entrez
+3630
+16334
+Ensembl
+ENSG00000254647
+ENSMUSG00000000215
+UniProt
+P01308
+P01326
+mRNA序列
+NM_000207
+​NM_001185097
+​NM_001185098
+​NM_001291897
+NM_001185083
+​NM_001185084
+​NM_008387
+蛋白序列
+NP_000198
+​NP_001172026
+​NP_001172027
+​NP_001278826
+NP_000198.1
+​NP_001172026.1
+​NP_001172027.1
+​NP_001278826.1
+NP_000198
+NP_000198
+NP_000198
+NP_000198
+NP_001172012
+​NP_001172013
+​NP_032413
+基因位置
+Chr 11：2.16 – 2.16 Mb
+Chr 7：142.23 – 142.3 Mb
+PubMed
+查询
+维基数据
+檢視/編輯人類
+檢視/編輯小鼠
