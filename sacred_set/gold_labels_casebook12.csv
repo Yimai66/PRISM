@@ -1,0 +1,13 @@
+case_id,gold_labels,set_type,notes
+Case-1,"A,E",weak,"Case Book Case 1: WWII start. Audit label A + E OK, but not sacred-ready because no tags or URLs and asymmetric RU source comparison."
+Case-2,"B,F",weak,"Case Book Case 2: printing. Audit label B + F OK, but not sacred-ready because no tags or URLs."
+Case-3,"C,D",weak,Case Book Case 3: War of 1812. Must be weak: compares national English-language/non-Wikipedia sources rather than distinct language Wikipedias.
+Case-4,D,weak,"Case Book Case 4: Opium Wars. Audit label D OK, but not sacred-ready because no tags or URLs."
+Case-5,"E,D",weak,"Case Book Case 5: Roman Empire fall. Audit label E + D OK, but not sacred-ready because no tags or URLs."
+Case-6,"B,D,F",weak,"Case Book Case 6: discovered America. Audit label B + D + F OK, but not sacred-ready because no tags or URLs and one source is non-Wikipedia."
+Case-7,"D,C",weak,"Case Book Case 7: Korean War. D plus weak C; audit says partial sacred readiness only, with ZH/RU transcription flags and no URLs."
+Case-8,"E,A",weak,"Case Book Case 8: Cold War end. Audit label E + A OK, but partial sacred readiness only, with RU/FR transcription flags and no URLs."
+Case-9,"B,F",weak,"Case Book Case 9: telephone. Audit label B + F OK, but partial sacred readiness only, with IT/DE transcription flags and no URLs."
+Case-10,"F,B",weak,"Case Book Case 10: penicillin. F plus secondary B; audit says partial sacred readiness only, with non-EN transcription flags and no URLs."
+Case-11,"E,D",weak,"Case Book Case 11: Industrial Revolution. Audit label E + D OK, but partial sacred readiness only, with verification/transcription flags and no URLs."
+Case-12,"B,A",weak,"Case Book Case 12: North Pole. Audit label B + A OK, but partial sacred readiness only, with RU/NO transcription flags and no URLs."

@@ -1,0 +1,16 @@
+case_id,gold_labels,set_type
+T1-09,"D,C",weak
+T1-22,D,weak
+T1-25,"D,A",weak
+T2-02,"B,F",weak
+T2-04,"B,F",weak
+T2-09,"B,F",weak
+T3-01,"B,D,F",weak
+T3-07,"B,F",weak
+T4-01,"E,D",weak
+T4-19,"E,D",weak
+T4-21,"E,D",weak
+T5-09,"D,F",weak
+T5-20,"D,F",weak
+T5-29,"D,F",weak
+T5-30,"D,F",weak
